@@ -1,0 +1,502 @@
+[
+    {
+        "cod_prod":"CR001",
+        "desc_prod":"Crédito de libre inversión Clásico",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":20.0,
+        "plazo_max_meses":60.0,
+        "cuota_min":150.0,
+        "comision_admin":10.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR002",
+        "desc_prod":"Crédito de libre inversión Plus",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":18.0,
+        "plazo_max_meses":72.0,
+        "cuota_min":250.0,
+        "comision_admin":12.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR003",
+        "desc_prod":"Crédito de libre inversión Flexible",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":19.0,
+        "plazo_max_meses":48.0,
+        "cuota_min":180.0,
+        "comision_admin":10.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR004",
+        "desc_prod":"Crédito de libre inversión Express",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":28.0,
+        "plazo_max_meses":24.0,
+        "cuota_min":100.0,
+        "comision_admin":8.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR005",
+        "desc_prod":"Crédito de libre inversión Preferencial",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":14.0,
+        "plazo_max_meses":84.0,
+        "cuota_min":400.0,
+        "comision_admin":15.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR006",
+        "desc_prod":"Crédito de libre inversión Educación",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":12.0,
+        "plazo_max_meses":84.0,
+        "cuota_min":120.0,
+        "comision_admin":5.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR007",
+        "desc_prod":"Crédito de libre inversión Viajes",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":18.0,
+        "plazo_max_meses":36.0,
+        "cuota_min":150.0,
+        "comision_admin":8.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR008",
+        "desc_prod":"Crédito de libre inversión Hogar",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":16.0,
+        "plazo_max_meses":72.0,
+        "cuota_min":300.0,
+        "comision_admin":10.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR009",
+        "desc_prod":"Crédito de libre inversión Salud",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":13.0,
+        "plazo_max_meses":60.0,
+        "cuota_min":120.0,
+        "comision_admin":5.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR010",
+        "desc_prod":"Crédito rotativo Clásico",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":28.0,
+        "plazo_max_meses":null,
+        "cuota_min":60.0,
+        "comision_admin":5.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR011",
+        "desc_prod":"Crédito rotativo Plus",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":26.0,
+        "plazo_max_meses":null,
+        "cuota_min":80.0,
+        "comision_admin":6.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR012",
+        "desc_prod":"Crédito rotativo Flexible",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":27.0,
+        "plazo_max_meses":null,
+        "cuota_min":70.0,
+        "comision_admin":5.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR013",
+        "desc_prod":"Crédito rotativo Express",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":30.0,
+        "plazo_max_meses":null,
+        "cuota_min":50.0,
+        "comision_admin":8.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR014",
+        "desc_prod":"Crédito rotativo Preferencial",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":24.0,
+        "plazo_max_meses":null,
+        "cuota_min":100.0,
+        "comision_admin":8.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR015",
+        "desc_prod":"Crédito rotativo Digital",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":25.0,
+        "plazo_max_meses":null,
+        "cuota_min":80.0,
+        "comision_admin":3.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR016",
+        "desc_prod":"Crédito rotativo Hogar",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":26.0,
+        "plazo_max_meses":null,
+        "cuota_min":80.0,
+        "comision_admin":5.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR017",
+        "desc_prod":"Crédito rotativo Viajes",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":27.0,
+        "plazo_max_meses":null,
+        "cuota_min":90.0,
+        "comision_admin":6.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR018",
+        "desc_prod":"Tarjeta digital Clásica",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":26.0,
+        "plazo_max_meses":null,
+        "cuota_min":40.0,
+        "comision_admin":0.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR019",
+        "desc_prod":"Tarjeta digital Gold",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":22.0,
+        "plazo_max_meses":null,
+        "cuota_min":80.0,
+        "comision_admin":3.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR020",
+        "desc_prod":"Tarjeta digital Platinum",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":18.0,
+        "plazo_max_meses":null,
+        "cuota_min":150.0,
+        "comision_admin":6.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR021",
+        "desc_prod":"Tarjeta digital Black",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":15.0,
+        "plazo_max_meses":null,
+        "cuota_min":250.0,
+        "comision_admin":10.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR022",
+        "desc_prod":"Tarjeta digital Jóvenes",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":24.0,
+        "plazo_max_meses":null,
+        "cuota_min":30.0,
+        "comision_admin":0.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR023",
+        "desc_prod":"Tarjeta digital Viajes",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":20.0,
+        "plazo_max_meses":null,
+        "cuota_min":100.0,
+        "comision_admin":5.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR024",
+        "desc_prod":"Tarjeta digital Cashback",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":21.0,
+        "plazo_max_meses":null,
+        "cuota_min":80.0,
+        "comision_admin":4.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CR025",
+        "desc_prod":"Tarjeta digital Premium",
+        "tip_prod":"Crédito de consumo",
+        "tasa_ea":17.0,
+        "plazo_max_meses":null,
+        "cuota_min":180.0,
+        "comision_admin":8.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CA001",
+        "desc_prod":"Cuenta de ahorro digital Básica",
+        "tip_prod":"Cuentas de ahorro digitales",
+        "tasa_ea":1.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":1.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CA002",
+        "desc_prod":"Cuenta de ahorro digital Plus",
+        "tip_prod":"Cuentas de ahorro digitales",
+        "tasa_ea":2.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":1.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CA003",
+        "desc_prod":"Cuenta de ahorro digital Premium",
+        "tip_prod":"Cuentas de ahorro digitales",
+        "tasa_ea":3.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":0.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CA004",
+        "desc_prod":"Cuenta de ahorro digital Nómina",
+        "tip_prod":"Cuentas de ahorro digitales",
+        "tasa_ea":2.5,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":0.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CA005",
+        "desc_prod":"Cuenta de ahorro digital Joven",
+        "tip_prod":"Cuentas de ahorro digitales",
+        "tasa_ea":2.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":0.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CA006",
+        "desc_prod":"Cuenta de ahorro digital Familiar",
+        "tip_prod":"Cuentas de ahorro digitales",
+        "tasa_ea":2.2,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":1.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CA007",
+        "desc_prod":"Cuenta de ahorro digital Digital Plus",
+        "tip_prod":"Cuentas de ahorro digitales",
+        "tasa_ea":3.5,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":0.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CA008",
+        "desc_prod":"Cuenta de ahorro digital Pensión",
+        "tip_prod":"Cuentas de ahorro digitales",
+        "tasa_ea":4.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":0.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CA009",
+        "desc_prod":"Cuenta de ahorro digital Preferencial",
+        "tip_prod":"Cuentas de ahorro digitales",
+        "tasa_ea":4.5,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":0.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"CA010",
+        "desc_prod":"Cuenta de ahorro digital Elite",
+        "tip_prod":"Cuentas de ahorro digitales",
+        "tasa_ea":5.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":0.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"ST001",
+        "desc_prod":"Pago PSE Personas",
+        "tip_prod":"Servicios transaccionales",
+        "tasa_ea":0.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":1.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"ST002",
+        "desc_prod":"Pago PSE Empresas",
+        "tip_prod":"Servicios transaccionales",
+        "tasa_ea":0.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":1.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"ST003",
+        "desc_prod":"Pago PSE Programado",
+        "tip_prod":"Servicios transaccionales",
+        "tasa_ea":0.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":0.5,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"ST004",
+        "desc_prod":"Pago PSE Recurrente",
+        "tip_prod":"Servicios transaccionales",
+        "tasa_ea":0.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":0.5,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"ST005",
+        "desc_prod":"Pago PSE Express",
+        "tip_prod":"Servicios transaccionales",
+        "tasa_ea":0.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":1.5,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"ST006",
+        "desc_prod":"Transferencia ACH Nacional",
+        "tip_prod":"Servicios transaccionales",
+        "tasa_ea":0.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":1.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"ST007",
+        "desc_prod":"Transferencia ACH Programada",
+        "tip_prod":"Servicios transaccionales",
+        "tasa_ea":0.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":1.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"ST008",
+        "desc_prod":"Transferencia ACH Empresarial",
+        "tip_prod":"Servicios transaccionales",
+        "tasa_ea":0.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":2.5,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"ST009",
+        "desc_prod":"Transferencia ACH Inmediata",
+        "tip_prod":"Servicios transaccionales",
+        "tasa_ea":0.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":3.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"ST010",
+        "desc_prod":"Transferencia ACH Masiva",
+        "tip_prod":"Servicios transaccionales",
+        "tasa_ea":0.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":4.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"ST011",
+        "desc_prod":"Corresponsalía Retiros",
+        "tip_prod":"Servicios transaccionales",
+        "tasa_ea":0.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":1.5,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"ST012",
+        "desc_prod":"Corresponsalía Depósitos",
+        "tip_prod":"Servicios transaccionales",
+        "tasa_ea":0.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":1.0,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"ST013",
+        "desc_prod":"Corresponsalía Pago de servicios",
+        "tip_prod":"Servicios transaccionales",
+        "tasa_ea":0.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":0.5,
+        "estado_prod":"ACTIVO"
+    },
+    {
+        "cod_prod":"ST014",
+        "desc_prod":"Corresponsalía Consultas",
+        "tip_prod":"Servicios transaccionales",
+        "tasa_ea":0.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":0.0,
+        "estado_prod":"SUSPENDIDO"
+    },
+    {
+        "cod_prod":"ST015",
+        "desc_prod":"Corresponsalía Recaudos",
+        "tip_prod":"Servicios transaccionales",
+        "tasa_ea":0.0,
+        "plazo_max_meses":0.0,
+        "cuota_min":null,
+        "comision_admin":1.5,
+        "estado_prod":"DESCONTINUADO"
+    }
+]

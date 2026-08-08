@@ -1,0 +1,51 @@
+﻿cod_prod,desc_prod,tip_prod,tasa_ea,plazo_max_meses,cuota_min,comision_admin,estado_prod
+CR001,Crédito de libre inversión Clásico,Crédito de consumo,20.0,60.0,150.0,10.0,ACTIVO
+CR002,Crédito de libre inversión Plus,Crédito de consumo,18.0,72.0,250.0,12.0,ACTIVO
+CR003,Crédito de libre inversión Flexible,Crédito de consumo,19.0,48.0,180.0,10.0,ACTIVO
+CR004,Crédito de libre inversión Express,Crédito de consumo,28.0,24.0,100.0,8.0,ACTIVO
+CR005,Crédito de libre inversión Preferencial,Crédito de consumo,14.0,84.0,400.0,15.0,ACTIVO
+CR006,Crédito de libre inversión Educación,Crédito de consumo,12.0,84.0,120.0,5.0,ACTIVO
+CR007,Crédito de libre inversión Viajes,Crédito de consumo,18.0,36.0,150.0,8.0,ACTIVO
+CR008,Crédito de libre inversión Hogar,Crédito de consumo,16.0,72.0,300.0,10.0,ACTIVO
+CR009,Crédito de libre inversión Salud,Crédito de consumo,13.0,60.0,120.0,5.0,ACTIVO
+CR010,Crédito rotativo Clásico,Crédito de consumo,28.0,,60.0,5.0,ACTIVO
+CR011,Crédito rotativo Plus,Crédito de consumo,26.0,,80.0,6.0,ACTIVO
+CR012,Crédito rotativo Flexible,Crédito de consumo,27.0,,70.0,5.0,ACTIVO
+CR013,Crédito rotativo Express,Crédito de consumo,30.0,,50.0,8.0,ACTIVO
+CR014,Crédito rotativo Preferencial,Crédito de consumo,24.0,,100.0,8.0,ACTIVO
+CR015,Crédito rotativo Digital,Crédito de consumo,25.0,,80.0,3.0,ACTIVO
+CR016,Crédito rotativo Hogar,Crédito de consumo,26.0,,80.0,5.0,ACTIVO
+CR017,Crédito rotativo Viajes,Crédito de consumo,27.0,,90.0,6.0,ACTIVO
+CR018,Tarjeta digital Clásica,Crédito de consumo,26.0,,40.0,0.0,ACTIVO
+CR019,Tarjeta digital Gold,Crédito de consumo,22.0,,80.0,3.0,ACTIVO
+CR020,Tarjeta digital Platinum,Crédito de consumo,18.0,,150.0,6.0,ACTIVO
+CR021,Tarjeta digital Black,Crédito de consumo,15.0,,250.0,10.0,ACTIVO
+CR022,Tarjeta digital Jóvenes,Crédito de consumo,24.0,,30.0,0.0,ACTIVO
+CR023,Tarjeta digital Viajes,Crédito de consumo,20.0,,100.0,5.0,ACTIVO
+CR024,Tarjeta digital Cashback,Crédito de consumo,21.0,,80.0,4.0,ACTIVO
+CR025,Tarjeta digital Premium,Crédito de consumo,17.0,,180.0,8.0,ACTIVO
+CA001,Cuenta de ahorro digital Básica,Cuentas de ahorro digitales,1.0,0.0,,1.0,ACTIVO
+CA002,Cuenta de ahorro digital Plus,Cuentas de ahorro digitales,2.0,0.0,,1.0,ACTIVO
+CA003,Cuenta de ahorro digital Premium,Cuentas de ahorro digitales,3.0,0.0,,0.0,ACTIVO
+CA004,Cuenta de ahorro digital Nómina,Cuentas de ahorro digitales,2.5,0.0,,0.0,ACTIVO
+CA005,Cuenta de ahorro digital Joven,Cuentas de ahorro digitales,2.0,0.0,,0.0,ACTIVO
+CA006,Cuenta de ahorro digital Familiar,Cuentas de ahorro digitales,2.2,0.0,,1.0,ACTIVO
+CA007,Cuenta de ahorro digital Digital Plus,Cuentas de ahorro digitales,3.5,0.0,,0.0,ACTIVO
+CA008,Cuenta de ahorro digital Pensión,Cuentas de ahorro digitales,4.0,0.0,,0.0,ACTIVO
+CA009,Cuenta de ahorro digital Preferencial,Cuentas de ahorro digitales,4.5,0.0,,0.0,ACTIVO
+CA010,Cuenta de ahorro digital Elite,Cuentas de ahorro digitales,5.0,0.0,,0.0,ACTIVO
+ST001,Pago PSE Personas,Servicios transaccionales,0.0,0.0,,1.0,ACTIVO
+ST002,Pago PSE Empresas,Servicios transaccionales,0.0,0.0,,1.0,ACTIVO
+ST003,Pago PSE Programado,Servicios transaccionales,0.0,0.0,,0.5,ACTIVO
+ST004,Pago PSE Recurrente,Servicios transaccionales,0.0,0.0,,0.5,ACTIVO
+ST005,Pago PSE Express,Servicios transaccionales,0.0,0.0,,1.5,ACTIVO
+ST006,Transferencia ACH Nacional,Servicios transaccionales,0.0,0.0,,1.0,ACTIVO
+ST007,Transferencia ACH Programada,Servicios transaccionales,0.0,0.0,,1.0,ACTIVO
+ST008,Transferencia ACH Empresarial,Servicios transaccionales,0.0,0.0,,2.5,ACTIVO
+ST009,Transferencia ACH Inmediata,Servicios transaccionales,0.0,0.0,,3.0,ACTIVO
+ST010,Transferencia ACH Masiva,Servicios transaccionales,0.0,0.0,,4.0,ACTIVO
+ST011,Corresponsalía Retiros,Servicios transaccionales,0.0,0.0,,1.5,ACTIVO
+ST012,Corresponsalía Depósitos,Servicios transaccionales,0.0,0.0,,1.0,ACTIVO
+ST013,Corresponsalía Pago de servicios,Servicios transaccionales,0.0,0.0,,0.5,ACTIVO
+ST014,Corresponsalía Consultas,Servicios transaccionales,0.0,0.0,,0.0,SUSPENDIDO
+ST015,Corresponsalía Recaudos,Servicios transaccionales,0.0,0.0,,1.5,DESCONTINUADO

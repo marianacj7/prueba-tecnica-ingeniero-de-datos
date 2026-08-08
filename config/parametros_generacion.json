@@ -1,0 +1,33 @@
+{
+    "seed": 42,
+
+    "tablas": {
+        "TB_CLIENTES_CORE": {
+            "registros": 10000
+        },
+
+        "TB_PRODUCTOS_CAT": {
+            "registros": 50
+        },
+
+        "TB_OBLIGACIONES": {
+            "registros": 30000
+        },
+
+        "TB_SUCURSALES_RED": {
+            "registros": 200
+        },
+
+        "TB_MOV_FINANCIEROS": {
+            "registros": 500000,
+            "fecha_inicio": "2025-06-02",
+            "fecha_fin": "2026-07-31"
+        },
+
+        "TB_COMISIONES_LOG": {
+            "registros": 80000,
+            "fecha_inicio": "2025-08-01",
+            "fecha_fin": "2026-07-31"
+        }
+    }
+}

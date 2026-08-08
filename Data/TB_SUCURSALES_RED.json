@@ -1,0 +1,2002 @@
+[
+    {
+        "cod_suc":"SUC0001",
+        "nom_suc":"FinBank Sucursal Santiago SUC0001",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Santiago",
+        "depto":"Región Metropolitana",
+        "latitud":-33.487767,
+        "longitud":-70.645145,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0002",
+        "nom_suc":"FinBank Sucursal Ciudad de México SUC0002",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.45027,
+        "longitud":-99.093982,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0003",
+        "nom_suc":"FinBank Corresponsal Lima SUC0003",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Lima",
+        "depto":"Lima",
+        "latitud":-12.08703,
+        "longitud":-77.069534,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0004",
+        "nom_suc":"FinBank Sucursal Monterrey SUC0004",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Monterrey",
+        "depto":"Nuevo León",
+        "latitud":25.701588,
+        "longitud":-100.311606,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0005",
+        "nom_suc":"FinBank Sucursal Córdoba SUC0005",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.38317,
+        "longitud":-64.162919,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0006",
+        "nom_suc":"FinBank Sucursal Guadalajara SUC0006",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Guadalajara",
+        "depto":"Jalisco",
+        "latitud":20.625248,
+        "longitud":-103.303879,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0007",
+        "nom_suc":"FinBank Sucursal Ciudad de México SUC0007",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.418498,
+        "longitud":-99.148804,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0008",
+        "nom_suc":"FinBank Sucursal Medellín SUC0008",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.247823,
+        "longitud":-75.533888,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0009",
+        "nom_suc":"FinBank Sucursal Santiago SUC0009",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Santiago",
+        "depto":"Región Metropolitana",
+        "latitud":-33.437048,
+        "longitud":-70.633129,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0010",
+        "nom_suc":"FinBank Corresponsal Lima SUC0010",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Lima",
+        "depto":"Lima",
+        "latitud":-12.030274,
+        "longitud":-77.015493,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0011",
+        "nom_suc":"FinBank Corresponsal Ciudad de México SUC0011",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.420613,
+        "longitud":-99.137859,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0012",
+        "nom_suc":"FinBank Corresponsal Barranquilla SUC0012",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Barranquilla",
+        "depto":"Atlántico",
+        "latitud":10.939451,
+        "longitud":-74.804602,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0013",
+        "nom_suc":"FinBank Sucursal Buenos Aires SUC0013",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.590202,
+        "longitud":-58.378186,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0014",
+        "nom_suc":"FinBank Sucursal Guadalajara SUC0014",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Guadalajara",
+        "depto":"Jalisco",
+        "latitud":20.708652,
+        "longitud":-103.3356,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0015",
+        "nom_suc":"FinBank Sucursal Córdoba SUC0015",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.3925,
+        "longitud":-64.215895,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0016",
+        "nom_suc":"FinBank Sucursal Guadalajara SUC0016",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Guadalajara",
+        "depto":"Jalisco",
+        "latitud":20.616319,
+        "longitud":-103.308286,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0017",
+        "nom_suc":"FinBank Corresponsal Bogotá SUC0017",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Bogotá",
+        "depto":"Cundinamarca",
+        "latitud":4.726544,
+        "longitud":-74.082537,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0018",
+        "nom_suc":"FinBank Sucursal Guadalajara SUC0018",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Guadalajara",
+        "depto":"Jalisco",
+        "latitud":20.623663,
+        "longitud":-103.325101,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0019",
+        "nom_suc":"FinBank Sucursal Valparaíso SUC0019",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Valparaíso",
+        "depto":"Valparaíso",
+        "latitud":-33.007418,
+        "longitud":-71.62276,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0020",
+        "nom_suc":"FinBank Corresponsal Arequipa SUC0020",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Arequipa",
+        "depto":"Arequipa",
+        "latitud":-16.409648,
+        "longitud":-71.511922,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0021",
+        "nom_suc":"FinBank Sucursal Cali SUC0021",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Cali",
+        "depto":"Valle del Cauca",
+        "latitud":3.480808,
+        "longitud":-76.539784,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0022",
+        "nom_suc":"FinBank Corresponsal Medellín SUC0022",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.247111,
+        "longitud":-75.534092,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0023",
+        "nom_suc":"FinBank Corresponsal Monterrey SUC0023",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Monterrey",
+        "depto":"Nuevo León",
+        "latitud":25.648055,
+        "longitud":-100.277621,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0024",
+        "nom_suc":"FinBank Sucursal Barranquilla SUC0024",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Barranquilla",
+        "depto":"Atlántico",
+        "latitud":10.929655,
+        "longitud":-74.787823,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0025",
+        "nom_suc":"FinBank Sucursal Monterrey SUC0025",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Monterrey",
+        "depto":"Nuevo León",
+        "latitud":25.662939,
+        "longitud":-100.316041,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0026",
+        "nom_suc":"FinBank Corresponsal Santiago SUC0026",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Santiago",
+        "depto":"Región Metropolitana",
+        "latitud":-33.469056,
+        "longitud":-70.655405,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0027",
+        "nom_suc":"FinBank Corresponsal Córdoba SUC0027",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.453945,
+        "longitud":-64.14345,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0028",
+        "nom_suc":"FinBank Corresponsal Buenos Aires SUC0028",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.621284,
+        "longitud":-58.429652,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0029",
+        "nom_suc":"FinBank Corresponsal Córdoba SUC0029",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.439349,
+        "longitud":-64.233007,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0030",
+        "nom_suc":"FinBank Corresponsal Ciudad de México SUC0030",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.455791,
+        "longitud":-99.101598,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0031",
+        "nom_suc":"FinBank Sucursal Cali SUC0031",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Cali",
+        "depto":"Valle del Cauca",
+        "latitud":3.414439,
+        "longitud":-76.534472,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0032",
+        "nom_suc":"FinBank Sucursal Buenos Aires SUC0032",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.611386,
+        "longitud":-58.41042,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0033",
+        "nom_suc":"FinBank Corresponsal Bogotá SUC0033",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Bogotá",
+        "depto":"Cundinamarca",
+        "latitud":4.732295,
+        "longitud":-74.082201,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0034",
+        "nom_suc":"FinBank Sucursal Arequipa SUC0034",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Arequipa",
+        "depto":"Arequipa",
+        "latitud":-16.413851,
+        "longitud":-71.562709,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0035",
+        "nom_suc":"FinBank Sucursal Arequipa SUC0035",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Arequipa",
+        "depto":"Arequipa",
+        "latitud":-16.435989,
+        "longitud":-71.565478,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0036",
+        "nom_suc":"FinBank Sucursal Bogotá SUC0036",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Bogotá",
+        "depto":"Cundinamarca",
+        "latitud":4.66774,
+        "longitud":-74.118959,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0037",
+        "nom_suc":"FinBank Sucursal Guadalajara SUC0037",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Guadalajara",
+        "depto":"Jalisco",
+        "latitud":20.676598,
+        "longitud":-103.378176,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0038",
+        "nom_suc":"FinBank Sucursal Buenos Aires SUC0038",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.596079,
+        "longitud":-58.4073,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0039",
+        "nom_suc":"FinBank Sucursal Ciudad de México SUC0039",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.392293,
+        "longitud":-99.140095,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0040",
+        "nom_suc":"FinBank Corresponsal Monterrey SUC0040",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Monterrey",
+        "depto":"Nuevo León",
+        "latitud":25.642017,
+        "longitud":-100.300754,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0041",
+        "nom_suc":"FinBank Sucursal Monterrey SUC0041",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Monterrey",
+        "depto":"Nuevo León",
+        "latitud":25.67053,
+        "longitud":-100.279933,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0042",
+        "nom_suc":"FinBank Sucursal Medellín SUC0042",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.208218,
+        "longitud":-75.612851,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0043",
+        "nom_suc":"FinBank Sucursal Ciudad de México SUC0043",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.426913,
+        "longitud":-99.097065,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0044",
+        "nom_suc":"FinBank Corresponsal Arequipa SUC0044",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Arequipa",
+        "depto":"Arequipa",
+        "latitud":-16.375397,
+        "longitud":-71.4906,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0045",
+        "nom_suc":"FinBank Corresponsal Cali SUC0045",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Cali",
+        "depto":"Valle del Cauca",
+        "latitud":3.442241,
+        "longitud":-76.533864,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0046",
+        "nom_suc":"FinBank Sucursal Cali SUC0046",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Cali",
+        "depto":"Valle del Cauca",
+        "latitud":3.439497,
+        "longitud":-76.483469,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0047",
+        "nom_suc":"FinBank Corresponsal Medellín SUC0047",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.222725,
+        "longitud":-75.561541,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0048",
+        "nom_suc":"FinBank Sucursal Santiago SUC0048",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Santiago",
+        "depto":"Región Metropolitana",
+        "latitud":-33.427059,
+        "longitud":-70.70382,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0049",
+        "nom_suc":"FinBank Sucursal Buenos Aires SUC0049",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.580126,
+        "longitud":-58.425504,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0050",
+        "nom_suc":"FinBank Sucursal Medellín SUC0050",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.244485,
+        "longitud":-75.545928,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0051",
+        "nom_suc":"FinBank Sucursal Ciudad de México SUC0051",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.467734,
+        "longitud":-99.176348,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0052",
+        "nom_suc":"FinBank Sucursal Valparaíso SUC0052",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Valparaíso",
+        "depto":"Valparaíso",
+        "latitud":-33.085211,
+        "longitud":-71.573671,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0053",
+        "nom_suc":"FinBank Sucursal Buenos Aires SUC0053",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.645502,
+        "longitud":-58.365863,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0054",
+        "nom_suc":"FinBank Sucursal Guadalajara SUC0054",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Guadalajara",
+        "depto":"Jalisco",
+        "latitud":20.630126,
+        "longitud":-103.327981,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0055",
+        "nom_suc":"FinBank Corresponsal Santiago SUC0055",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Santiago",
+        "depto":"Región Metropolitana",
+        "latitud":-33.43435,
+        "longitud":-70.673578,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0056",
+        "nom_suc":"FinBank Corresponsal Lima SUC0056",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Lima",
+        "depto":"Lima",
+        "latitud":-12.050571,
+        "longitud":-76.992955,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0057",
+        "nom_suc":"FinBank Sucursal Bogotá SUC0057",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Bogotá",
+        "depto":"Cundinamarca",
+        "latitud":4.711588,
+        "longitud":-74.108854,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0058",
+        "nom_suc":"FinBank Corresponsal Bogotá SUC0058",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Bogotá",
+        "depto":"Cundinamarca",
+        "latitud":4.697953,
+        "longitud":-74.106325,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0059",
+        "nom_suc":"FinBank Sucursal Buenos Aires SUC0059",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.555315,
+        "longitud":-58.35089,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0060",
+        "nom_suc":"FinBank Corresponsal Arequipa SUC0060",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Arequipa",
+        "depto":"Arequipa",
+        "latitud":-16.429062,
+        "longitud":-71.521161,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0061",
+        "nom_suc":"FinBank Sucursal Ciudad de México SUC0061",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.471571,
+        "longitud":-99.108958,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0062",
+        "nom_suc":"FinBank Corresponsal Bogotá SUC0062",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Bogotá",
+        "depto":"Cundinamarca",
+        "latitud":4.732761,
+        "longitud":-74.10174,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0063",
+        "nom_suc":"FinBank Sucursal Medellín SUC0063",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.219312,
+        "longitud":-75.540384,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0064",
+        "nom_suc":"FinBank Sucursal Guadalajara SUC0064",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Guadalajara",
+        "depto":"Jalisco",
+        "latitud":20.614109,
+        "longitud":-103.366244,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0065",
+        "nom_suc":"FinBank Sucursal Cali SUC0065",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Cali",
+        "depto":"Valle del Cauca",
+        "latitud":3.475723,
+        "longitud":-76.526832,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0066",
+        "nom_suc":"FinBank Sucursal Ciudad de México SUC0066",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.477105,
+        "longitud":-99.114098,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0067",
+        "nom_suc":"FinBank Sucursal Barranquilla SUC0067",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Barranquilla",
+        "depto":"Atlántico",
+        "latitud":10.976751,
+        "longitud":-74.816491,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0068",
+        "nom_suc":"FinBank Sucursal Córdoba SUC0068",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.37288,
+        "longitud":-64.234811,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0069",
+        "nom_suc":"FinBank Corresponsal Santiago SUC0069",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Santiago",
+        "depto":"Región Metropolitana",
+        "latitud":-33.488621,
+        "longitud":-70.641288,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0070",
+        "nom_suc":"FinBank Sucursal Buenos Aires SUC0070",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.578752,
+        "longitud":-58.339024,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0071",
+        "nom_suc":"FinBank Sucursal Córdoba SUC0071",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.389023,
+        "longitud":-64.150658,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0072",
+        "nom_suc":"FinBank Corresponsal Barranquilla SUC0072",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Barranquilla",
+        "depto":"Atlántico",
+        "latitud":10.996739,
+        "longitud":-74.790129,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0073",
+        "nom_suc":"FinBank Sucursal Bogotá SUC0073",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Bogotá",
+        "depto":"Cundinamarca",
+        "latitud":4.687681,
+        "longitud":-74.043363,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0074",
+        "nom_suc":"FinBank Sucursal Medellín SUC0074",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.216443,
+        "longitud":-75.549541,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0075",
+        "nom_suc":"FinBank Corresponsal Córdoba SUC0075",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.382968,
+        "longitud":-64.216508,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0076",
+        "nom_suc":"FinBank Sucursal Guadalajara SUC0076",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Guadalajara",
+        "depto":"Jalisco",
+        "latitud":20.696135,
+        "longitud":-103.302911,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0077",
+        "nom_suc":"FinBank Sucursal Valparaíso SUC0077",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Valparaíso",
+        "depto":"Valparaíso",
+        "latitud":-33.029248,
+        "longitud":-71.578334,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0078",
+        "nom_suc":"FinBank Sucursal Guadalajara SUC0078",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Guadalajara",
+        "depto":"Jalisco",
+        "latitud":20.627557,
+        "longitud":-103.303347,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0079",
+        "nom_suc":"FinBank Sucursal Valparaíso SUC0079",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Valparaíso",
+        "depto":"Valparaíso",
+        "latitud":-33.062631,
+        "longitud":-71.584057,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0080",
+        "nom_suc":"FinBank Sucursal Ciudad de México SUC0080",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.42112,
+        "longitud":-99.125541,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0081",
+        "nom_suc":"FinBank Corresponsal Lima SUC0081",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Lima",
+        "depto":"Lima",
+        "latitud":-12.044408,
+        "longitud":-77.012149,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0082",
+        "nom_suc":"FinBank Sucursal Monterrey SUC0082",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Monterrey",
+        "depto":"Nuevo León",
+        "latitud":25.703663,
+        "longitud":-100.329678,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0083",
+        "nom_suc":"FinBank Sucursal Barranquilla SUC0083",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Barranquilla",
+        "depto":"Atlántico",
+        "latitud":10.980816,
+        "longitud":-74.764961,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0084",
+        "nom_suc":"FinBank Sucursal Arequipa SUC0084",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Arequipa",
+        "depto":"Arequipa",
+        "latitud":-16.428072,
+        "longitud":-71.546661,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0085",
+        "nom_suc":"FinBank Sucursal Cali SUC0085",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Cali",
+        "depto":"Valle del Cauca",
+        "latitud":3.420784,
+        "longitud":-76.515507,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0086",
+        "nom_suc":"FinBank Sucursal Cali SUC0086",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Cali",
+        "depto":"Valle del Cauca",
+        "latitud":3.463151,
+        "longitud":-76.551905,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0087",
+        "nom_suc":"FinBank Corresponsal Guadalajara SUC0087",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Guadalajara",
+        "depto":"Jalisco",
+        "latitud":20.630718,
+        "longitud":-103.321024,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0088",
+        "nom_suc":"FinBank Sucursal Medellín SUC0088",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.238416,
+        "longitud":-75.60983,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0089",
+        "nom_suc":"FinBank Sucursal Córdoba SUC0089",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.396504,
+        "longitud":-64.172915,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0090",
+        "nom_suc":"FinBank Corresponsal Buenos Aires SUC0090",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.620181,
+        "longitud":-58.349758,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0091",
+        "nom_suc":"FinBank Sucursal Bogotá SUC0091",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Bogotá",
+        "depto":"Cundinamarca",
+        "latitud":4.741656,
+        "longitud":-74.107365,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0092",
+        "nom_suc":"FinBank Sucursal Buenos Aires SUC0092",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.568726,
+        "longitud":-58.424317,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0093",
+        "nom_suc":"FinBank Sucursal Bogotá SUC0093",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Bogotá",
+        "depto":"Cundinamarca",
+        "latitud":4.732835,
+        "longitud":-74.083702,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0094",
+        "nom_suc":"FinBank Corresponsal Monterrey SUC0094",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Monterrey",
+        "depto":"Nuevo León",
+        "latitud":25.637154,
+        "longitud":-100.291004,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0095",
+        "nom_suc":"FinBank Corresponsal Valparaíso SUC0095",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Valparaíso",
+        "depto":"Valparaíso",
+        "latitud":-33.075316,
+        "longitud":-71.582289,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0096",
+        "nom_suc":"FinBank Sucursal Arequipa SUC0096",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Arequipa",
+        "depto":"Arequipa",
+        "latitud":-16.43408,
+        "longitud":-71.502666,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0097",
+        "nom_suc":"FinBank Sucursal Santiago SUC0097",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Santiago",
+        "depto":"Región Metropolitana",
+        "latitud":-33.445787,
+        "longitud":-70.663407,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0098",
+        "nom_suc":"FinBank Sucursal Medellín SUC0098",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.255465,
+        "longitud":-75.559273,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0099",
+        "nom_suc":"FinBank Corresponsal Arequipa SUC0099",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Arequipa",
+        "depto":"Arequipa",
+        "latitud":-16.414409,
+        "longitud":-71.571584,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0100",
+        "nom_suc":"FinBank Corresponsal Córdoba SUC0100",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.445376,
+        "longitud":-64.175034,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0101",
+        "nom_suc":"FinBank Corresponsal Santiago SUC0101",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Santiago",
+        "depto":"Región Metropolitana",
+        "latitud":-33.474975,
+        "longitud":-70.675313,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0102",
+        "nom_suc":"FinBank Sucursal Barranquilla SUC0102",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Barranquilla",
+        "depto":"Atlántico",
+        "latitud":10.950471,
+        "longitud":-74.777285,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0103",
+        "nom_suc":"FinBank Sucursal Monterrey SUC0103",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Monterrey",
+        "depto":"Nuevo León",
+        "latitud":25.651881,
+        "longitud":-100.344705,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0104",
+        "nom_suc":"FinBank Sucursal Medellín SUC0104",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.235777,
+        "longitud":-75.610517,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0105",
+        "nom_suc":"FinBank Corresponsal Buenos Aires SUC0105",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.559094,
+        "longitud":-58.429647,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0106",
+        "nom_suc":"FinBank Corresponsal Medellín SUC0106",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.19479,
+        "longitud":-75.596024,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0107",
+        "nom_suc":"FinBank Corresponsal Valparaíso SUC0107",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Valparaíso",
+        "depto":"Valparaíso",
+        "latitud":-33.043378,
+        "longitud":-71.589237,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0108",
+        "nom_suc":"FinBank Sucursal Medellín SUC0108",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.216142,
+        "longitud":-75.587616,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0109",
+        "nom_suc":"FinBank Corresponsal Santiago SUC0109",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Santiago",
+        "depto":"Región Metropolitana",
+        "latitud":-33.419086,
+        "longitud":-70.646882,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0110",
+        "nom_suc":"FinBank Sucursal Buenos Aires SUC0110",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.600288,
+        "longitud":-58.340907,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0111",
+        "nom_suc":"FinBank Sucursal Ciudad de México SUC0111",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.446875,
+        "longitud":-99.16963,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0112",
+        "nom_suc":"FinBank Sucursal Valparaíso SUC0112",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Valparaíso",
+        "depto":"Valparaíso",
+        "latitud":-33.064465,
+        "longitud":-71.61723,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0113",
+        "nom_suc":"FinBank Sucursal Guadalajara SUC0113",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Guadalajara",
+        "depto":"Jalisco",
+        "latitud":20.684901,
+        "longitud":-103.316408,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0114",
+        "nom_suc":"FinBank Corresponsal Lima SUC0114",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Lima",
+        "depto":"Lima",
+        "latitud":-12.021498,
+        "longitud":-77.087591,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0115",
+        "nom_suc":"FinBank Corresponsal Ciudad de México SUC0115",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.460723,
+        "longitud":-99.118025,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0116",
+        "nom_suc":"FinBank Sucursal Bogotá SUC0116",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Bogotá",
+        "depto":"Cundinamarca",
+        "latitud":4.744923,
+        "longitud":-74.059966,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0117",
+        "nom_suc":"FinBank Corresponsal Ciudad de México SUC0117",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.438997,
+        "longitud":-99.161404,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0118",
+        "nom_suc":"FinBank Corresponsal Cali SUC0118",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Cali",
+        "depto":"Valle del Cauca",
+        "latitud":3.462189,
+        "longitud":-76.485627,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0119",
+        "nom_suc":"FinBank Sucursal Cali SUC0119",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Cali",
+        "depto":"Valle del Cauca",
+        "latitud":3.498072,
+        "longitud":-76.57119,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0120",
+        "nom_suc":"FinBank Corresponsal Santiago SUC0120",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Santiago",
+        "depto":"Región Metropolitana",
+        "latitud":-33.408097,
+        "longitud":-70.681769,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0121",
+        "nom_suc":"FinBank Sucursal Buenos Aires SUC0121",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.584639,
+        "longitud":-58.368876,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0122",
+        "nom_suc":"FinBank Corresponsal Santiago SUC0122",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Santiago",
+        "depto":"Región Metropolitana",
+        "latitud":-33.438859,
+        "longitud":-70.707194,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0123",
+        "nom_suc":"FinBank Sucursal Barranquilla SUC0123",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Barranquilla",
+        "depto":"Atlántico",
+        "latitud":10.971775,
+        "longitud":-74.765148,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0124",
+        "nom_suc":"FinBank Sucursal Lima SUC0124",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Lima",
+        "depto":"Lima",
+        "latitud":-12.011442,
+        "longitud":-77.010567,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0125",
+        "nom_suc":"FinBank Sucursal Santiago SUC0125",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Santiago",
+        "depto":"Región Metropolitana",
+        "latitud":-33.409742,
+        "longitud":-70.673326,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0126",
+        "nom_suc":"FinBank Corresponsal Arequipa SUC0126",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Arequipa",
+        "depto":"Arequipa",
+        "latitud":-16.362453,
+        "longitud":-71.560492,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0127",
+        "nom_suc":"FinBank Sucursal Medellín SUC0127",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.240687,
+        "longitud":-75.548627,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0128",
+        "nom_suc":"FinBank Corresponsal Bogotá SUC0128",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Bogotá",
+        "depto":"Cundinamarca",
+        "latitud":4.744073,
+        "longitud":-74.113434,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0129",
+        "nom_suc":"FinBank Sucursal Medellín SUC0129",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.251185,
+        "longitud":-75.564381,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0130",
+        "nom_suc":"FinBank Corresponsal Barranquilla SUC0130",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Barranquilla",
+        "depto":"Atlántico",
+        "latitud":10.936684,
+        "longitud":-74.810088,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0131",
+        "nom_suc":"FinBank Sucursal Buenos Aires SUC0131",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.583582,
+        "longitud":-58.403973,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0132",
+        "nom_suc":"FinBank Sucursal Ciudad de México SUC0132",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.406736,
+        "longitud":-99.142557,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0133",
+        "nom_suc":"FinBank Corresponsal Medellín SUC0133",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.25879,
+        "longitud":-75.582118,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0134",
+        "nom_suc":"FinBank Corresponsal Bogotá SUC0134",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Bogotá",
+        "depto":"Cundinamarca",
+        "latitud":4.70144,
+        "longitud":-74.097769,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0135",
+        "nom_suc":"FinBank Corresponsal Arequipa SUC0135",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Arequipa",
+        "depto":"Arequipa",
+        "latitud":-16.405908,
+        "longitud":-71.54495,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0136",
+        "nom_suc":"FinBank Sucursal Monterrey SUC0136",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Monterrey",
+        "depto":"Nuevo León",
+        "latitud":25.681975,
+        "longitud":-100.335438,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0137",
+        "nom_suc":"FinBank Corresponsal Barranquilla SUC0137",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Barranquilla",
+        "depto":"Atlántico",
+        "latitud":10.930455,
+        "longitud":-74.777714,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0138",
+        "nom_suc":"FinBank Sucursal Bogotá SUC0138",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Bogotá",
+        "depto":"Cundinamarca",
+        "latitud":4.73486,
+        "longitud":-74.09445,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0139",
+        "nom_suc":"FinBank Sucursal Buenos Aires SUC0139",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.6254,
+        "longitud":-58.421547,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0140",
+        "nom_suc":"FinBank Sucursal Cali SUC0140",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Cali",
+        "depto":"Valle del Cauca",
+        "latitud":3.431827,
+        "longitud":-76.511198,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0141",
+        "nom_suc":"FinBank Sucursal Lima SUC0141",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Lima",
+        "depto":"Lima",
+        "latitud":-12.041064,
+        "longitud":-77.023058,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0142",
+        "nom_suc":"FinBank Sucursal Medellín SUC0142",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.204459,
+        "longitud":-75.629973,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0143",
+        "nom_suc":"FinBank Corresponsal Barranquilla SUC0143",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Barranquilla",
+        "depto":"Atlántico",
+        "latitud":10.936936,
+        "longitud":-74.826162,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0144",
+        "nom_suc":"FinBank Corresponsal Ciudad de México SUC0144",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.422671,
+        "longitud":-99.175792,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0145",
+        "nom_suc":"FinBank Sucursal Cali SUC0145",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Cali",
+        "depto":"Valle del Cauca",
+        "latitud":3.482714,
+        "longitud":-76.487087,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0146",
+        "nom_suc":"FinBank Corresponsal Arequipa SUC0146",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Arequipa",
+        "depto":"Arequipa",
+        "latitud":-16.382556,
+        "longitud":-71.526868,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0147",
+        "nom_suc":"FinBank Sucursal Arequipa SUC0147",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Arequipa",
+        "depto":"Arequipa",
+        "latitud":-16.420962,
+        "longitud":-71.49665,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0148",
+        "nom_suc":"FinBank Corresponsal Valparaíso SUC0148",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Valparaíso",
+        "depto":"Valparaíso",
+        "latitud":-33.066662,
+        "longitud":-71.600597,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0149",
+        "nom_suc":"FinBank Corresponsal Córdoba SUC0149",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.449321,
+        "longitud":-64.217697,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0150",
+        "nom_suc":"FinBank Sucursal Cali SUC0150",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Cali",
+        "depto":"Valle del Cauca",
+        "latitud":3.456799,
+        "longitud":-76.566347,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0151",
+        "nom_suc":"FinBank Corresponsal Medellín SUC0151",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.223326,
+        "longitud":-75.608052,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0152",
+        "nom_suc":"FinBank Sucursal Medellín SUC0152",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.201318,
+        "longitud":-75.607858,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0153",
+        "nom_suc":"FinBank Sucursal Buenos Aires SUC0153",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.587582,
+        "longitud":-58.338233,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0154",
+        "nom_suc":"FinBank Sucursal Santiago SUC0154",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Santiago",
+        "depto":"Región Metropolitana",
+        "latitud":-33.484001,
+        "longitud":-70.692737,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0155",
+        "nom_suc":"FinBank Sucursal Córdoba SUC0155",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.439339,
+        "longitud":-64.163904,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0156",
+        "nom_suc":"FinBank Sucursal Ciudad de México SUC0156",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.42947,
+        "longitud":-99.152791,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0157",
+        "nom_suc":"FinBank Sucursal Arequipa SUC0157",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Arequipa",
+        "depto":"Arequipa",
+        "latitud":-16.40962,
+        "longitud":-71.579456,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0158",
+        "nom_suc":"FinBank Sucursal Barranquilla SUC0158",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Barranquilla",
+        "depto":"Atlántico",
+        "latitud":10.978871,
+        "longitud":-74.828714,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0159",
+        "nom_suc":"FinBank Corresponsal Buenos Aires SUC0159",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.594988,
+        "longitud":-58.429525,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0160",
+        "nom_suc":"FinBank Sucursal Buenos Aires SUC0160",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.649677,
+        "longitud":-58.355973,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0161",
+        "nom_suc":"FinBank Corresponsal Guadalajara SUC0161",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Guadalajara",
+        "depto":"Jalisco",
+        "latitud":20.627849,
+        "longitud":-103.341067,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0162",
+        "nom_suc":"FinBank Sucursal Ciudad de México SUC0162",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.429601,
+        "longitud":-99.142365,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0163",
+        "nom_suc":"FinBank Sucursal Cali SUC0163",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Cali",
+        "depto":"Valle del Cauca",
+        "latitud":3.43458,
+        "longitud":-76.512633,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0164",
+        "nom_suc":"FinBank Sucursal Córdoba SUC0164",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.41509,
+        "longitud":-64.193317,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0165",
+        "nom_suc":"FinBank Corresponsal Córdoba SUC0165",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.429682,
+        "longitud":-64.18734,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0166",
+        "nom_suc":"FinBank Sucursal Arequipa SUC0166",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Arequipa",
+        "depto":"Arequipa",
+        "latitud":-16.412802,
+        "longitud":-71.58208,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0167",
+        "nom_suc":"FinBank Sucursal Medellín SUC0167",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.256741,
+        "longitud":-75.555201,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0168",
+        "nom_suc":"FinBank Sucursal Guadalajara SUC0168",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Guadalajara",
+        "depto":"Jalisco",
+        "latitud":20.653512,
+        "longitud":-103.329775,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0169",
+        "nom_suc":"FinBank Sucursal Buenos Aires SUC0169",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.573769,
+        "longitud":-58.360622,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0170",
+        "nom_suc":"FinBank Corresponsal Valparaíso SUC0170",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Valparaíso",
+        "depto":"Valparaíso",
+        "latitud":-33.087879,
+        "longitud":-71.563474,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0171",
+        "nom_suc":"FinBank Corresponsal Ciudad de México SUC0171",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.447371,
+        "longitud":-99.167803,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0172",
+        "nom_suc":"FinBank Corresponsal Monterrey SUC0172",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Monterrey",
+        "depto":"Nuevo León",
+        "latitud":25.663942,
+        "longitud":-100.282628,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0173",
+        "nom_suc":"FinBank Sucursal Arequipa SUC0173",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Arequipa",
+        "depto":"Arequipa",
+        "latitud":-16.444536,
+        "longitud":-71.568439,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0174",
+        "nom_suc":"FinBank Corresponsal Cali SUC0174",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Cali",
+        "depto":"Valle del Cauca",
+        "latitud":3.488003,
+        "longitud":-76.554375,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0175",
+        "nom_suc":"FinBank Sucursal Córdoba SUC0175",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.419326,
+        "longitud":-64.156745,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0176",
+        "nom_suc":"FinBank Corresponsal Buenos Aires SUC0176",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.595708,
+        "longitud":-58.365606,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0177",
+        "nom_suc":"FinBank Sucursal Medellín SUC0177",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.228712,
+        "longitud":-75.576008,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0178",
+        "nom_suc":"FinBank Sucursal Barranquilla SUC0178",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Barranquilla",
+        "depto":"Atlántico",
+        "latitud":11.00546,
+        "longitud":-74.733223,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0179",
+        "nom_suc":"FinBank Sucursal Córdoba SUC0179",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.429022,
+        "longitud":-64.206982,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0180",
+        "nom_suc":"FinBank Corresponsal Valparaíso SUC0180",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Valparaíso",
+        "depto":"Valparaíso",
+        "latitud":-33.058592,
+        "longitud":-71.596331,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0181",
+        "nom_suc":"FinBank Corresponsal Medellín SUC0181",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Medellín",
+        "depto":"Antioquia",
+        "latitud":6.290682,
+        "longitud":-75.618575,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0182",
+        "nom_suc":"FinBank Sucursal Ciudad de México SUC0182",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Ciudad de México",
+        "depto":"Ciudad de México",
+        "latitud":19.470019,
+        "longitud":-99.139169,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0183",
+        "nom_suc":"FinBank Corresponsal Monterrey SUC0183",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Monterrey",
+        "depto":"Nuevo León",
+        "latitud":25.651016,
+        "longitud":-100.279007,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0184",
+        "nom_suc":"FinBank Corresponsal Córdoba SUC0184",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.37318,
+        "longitud":-64.204944,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0185",
+        "nom_suc":"FinBank Sucursal Barranquilla SUC0185",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Barranquilla",
+        "depto":"Atlántico",
+        "latitud":11.003734,
+        "longitud":-74.745366,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0186",
+        "nom_suc":"FinBank Sucursal Monterrey SUC0186",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Monterrey",
+        "depto":"Nuevo León",
+        "latitud":25.725344,
+        "longitud":-100.317305,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0187",
+        "nom_suc":"FinBank Corresponsal Bogotá SUC0187",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Bogotá",
+        "depto":"Cundinamarca",
+        "latitud":4.724116,
+        "longitud":-74.030007,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0188",
+        "nom_suc":"FinBank Corresponsal Valparaíso SUC0188",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Valparaíso",
+        "depto":"Valparaíso",
+        "latitud":-32.999366,
+        "longitud":-71.586663,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0189",
+        "nom_suc":"FinBank Sucursal Cali SUC0189",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Cali",
+        "depto":"Valle del Cauca",
+        "latitud":3.471,
+        "longitud":-76.491658,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0190",
+        "nom_suc":"FinBank Sucursal Guadalajara SUC0190",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Guadalajara",
+        "depto":"Jalisco",
+        "latitud":20.645546,
+        "longitud":-103.356531,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0191",
+        "nom_suc":"FinBank Sucursal Santiago SUC0191",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Santiago",
+        "depto":"Región Metropolitana",
+        "latitud":-33.419648,
+        "longitud":-70.702302,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0192",
+        "nom_suc":"FinBank Sucursal Buenos Aires SUC0192",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.585387,
+        "longitud":-58.381833,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0193",
+        "nom_suc":"FinBank Sucursal Santiago SUC0193",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Santiago",
+        "depto":"Región Metropolitana",
+        "latitud":-33.473502,
+        "longitud":-70.693767,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0194",
+        "nom_suc":"FinBank Sucursal Guadalajara SUC0194",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Guadalajara",
+        "depto":"Jalisco",
+        "latitud":20.677461,
+        "longitud":-103.383802,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0195",
+        "nom_suc":"FinBank Corresponsal Buenos Aires SUC0195",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.623785,
+        "longitud":-58.335397,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0196",
+        "nom_suc":"FinBank Sucursal Guadalajara SUC0196",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Guadalajara",
+        "depto":"Jalisco",
+        "latitud":20.629622,
+        "longitud":-103.361131,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0197",
+        "nom_suc":"FinBank Corresponsal Buenos Aires SUC0197",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Buenos Aires",
+        "depto":"Buenos Aires",
+        "latitud":-34.617804,
+        "longitud":-58.402013,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0198",
+        "nom_suc":"FinBank Corresponsal Santiago SUC0198",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Santiago",
+        "depto":"Región Metropolitana",
+        "latitud":-33.459319,
+        "longitud":-70.71849,
+        "activo":"ACTIVO"
+    },
+    {
+        "cod_suc":"SUC0199",
+        "nom_suc":"FinBank Corresponsal Lima SUC0199",
+        "tip_punto":"CORRESPONSAL",
+        "ciudad":"Lima",
+        "depto":"Lima",
+        "latitud":-12.005338,
+        "longitud":-77.018283,
+        "activo":"INACTIVO"
+    },
+    {
+        "cod_suc":"SUC0200",
+        "nom_suc":"FinBank Sucursal Córdoba SUC0200",
+        "tip_punto":"SUCURSAL",
+        "ciudad":"Córdoba",
+        "depto":"Córdoba",
+        "latitud":-31.390214,
+        "longitud":-64.178094,
+        "activo":"ACTIVO"
+    }
+]

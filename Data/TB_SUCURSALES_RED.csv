@@ -1,0 +1,201 @@
+﻿cod_suc,nom_suc,tip_punto,ciudad,depto,latitud,longitud,activo
+SUC0001,FinBank Sucursal Santiago SUC0001,SUCURSAL,Santiago,Región Metropolitana,-33.487767,-70.645145,ACTIVO
+SUC0002,FinBank Sucursal Ciudad de México SUC0002,SUCURSAL,Ciudad de México,Ciudad de México,19.45027,-99.093982,ACTIVO
+SUC0003,FinBank Corresponsal Lima SUC0003,CORRESPONSAL,Lima,Lima,-12.08703,-77.069534,ACTIVO
+SUC0004,FinBank Sucursal Monterrey SUC0004,SUCURSAL,Monterrey,Nuevo León,25.701588,-100.311606,ACTIVO
+SUC0005,FinBank Sucursal Córdoba SUC0005,SUCURSAL,Córdoba,Córdoba,-31.38317,-64.162919,ACTIVO
+SUC0006,FinBank Sucursal Guadalajara SUC0006,SUCURSAL,Guadalajara,Jalisco,20.625248,-103.303879,ACTIVO
+SUC0007,FinBank Sucursal Ciudad de México SUC0007,SUCURSAL,Ciudad de México,Ciudad de México,19.418498,-99.148804,ACTIVO
+SUC0008,FinBank Sucursal Medellín SUC0008,SUCURSAL,Medellín,Antioquia,6.247823,-75.533888,ACTIVO
+SUC0009,FinBank Sucursal Santiago SUC0009,SUCURSAL,Santiago,Región Metropolitana,-33.437048,-70.633129,ACTIVO
+SUC0010,FinBank Corresponsal Lima SUC0010,CORRESPONSAL,Lima,Lima,-12.030274,-77.015493,ACTIVO
+SUC0011,FinBank Corresponsal Ciudad de México SUC0011,CORRESPONSAL,Ciudad de México,Ciudad de México,19.420613,-99.137859,ACTIVO
+SUC0012,FinBank Corresponsal Barranquilla SUC0012,CORRESPONSAL,Barranquilla,Atlántico,10.939451,-74.804602,ACTIVO
+SUC0013,FinBank Sucursal Buenos Aires SUC0013,SUCURSAL,Buenos Aires,Buenos Aires,-34.590202,-58.378186,ACTIVO
+SUC0014,FinBank Sucursal Guadalajara SUC0014,SUCURSAL,Guadalajara,Jalisco,20.708652,-103.3356,ACTIVO
+SUC0015,FinBank Sucursal Córdoba SUC0015,SUCURSAL,Córdoba,Córdoba,-31.3925,-64.215895,ACTIVO
+SUC0016,FinBank Sucursal Guadalajara SUC0016,SUCURSAL,Guadalajara,Jalisco,20.616319,-103.308286,ACTIVO
+SUC0017,FinBank Corresponsal Bogotá SUC0017,CORRESPONSAL,Bogotá,Cundinamarca,4.726544,-74.082537,ACTIVO
+SUC0018,FinBank Sucursal Guadalajara SUC0018,SUCURSAL,Guadalajara,Jalisco,20.623663,-103.325101,ACTIVO
+SUC0019,FinBank Sucursal Valparaíso SUC0019,SUCURSAL,Valparaíso,Valparaíso,-33.007418,-71.62276,INACTIVO
+SUC0020,FinBank Corresponsal Arequipa SUC0020,CORRESPONSAL,Arequipa,Arequipa,-16.409648,-71.511922,ACTIVO
+SUC0021,FinBank Sucursal Cali SUC0021,SUCURSAL,Cali,Valle del Cauca,3.480808,-76.539784,ACTIVO
+SUC0022,FinBank Corresponsal Medellín SUC0022,CORRESPONSAL,Medellín,Antioquia,6.247111,-75.534092,ACTIVO
+SUC0023,FinBank Corresponsal Monterrey SUC0023,CORRESPONSAL,Monterrey,Nuevo León,25.648055,-100.277621,ACTIVO
+SUC0024,FinBank Sucursal Barranquilla SUC0024,SUCURSAL,Barranquilla,Atlántico,10.929655,-74.787823,INACTIVO
+SUC0025,FinBank Sucursal Monterrey SUC0025,SUCURSAL,Monterrey,Nuevo León,25.662939,-100.316041,INACTIVO
+SUC0026,FinBank Corresponsal Santiago SUC0026,CORRESPONSAL,Santiago,Región Metropolitana,-33.469056,-70.655405,ACTIVO
+SUC0027,FinBank Corresponsal Córdoba SUC0027,CORRESPONSAL,Córdoba,Córdoba,-31.453945,-64.14345,INACTIVO
+SUC0028,FinBank Corresponsal Buenos Aires SUC0028,CORRESPONSAL,Buenos Aires,Buenos Aires,-34.621284,-58.429652,ACTIVO
+SUC0029,FinBank Corresponsal Córdoba SUC0029,CORRESPONSAL,Córdoba,Córdoba,-31.439349,-64.233007,INACTIVO
+SUC0030,FinBank Corresponsal Ciudad de México SUC0030,CORRESPONSAL,Ciudad de México,Ciudad de México,19.455791,-99.101598,ACTIVO
+SUC0031,FinBank Sucursal Cali SUC0031,SUCURSAL,Cali,Valle del Cauca,3.414439,-76.534472,ACTIVO
+SUC0032,FinBank Sucursal Buenos Aires SUC0032,SUCURSAL,Buenos Aires,Buenos Aires,-34.611386,-58.41042,ACTIVO
+SUC0033,FinBank Corresponsal Bogotá SUC0033,CORRESPONSAL,Bogotá,Cundinamarca,4.732295,-74.082201,ACTIVO
+SUC0034,FinBank Sucursal Arequipa SUC0034,SUCURSAL,Arequipa,Arequipa,-16.413851,-71.562709,ACTIVO
+SUC0035,FinBank Sucursal Arequipa SUC0035,SUCURSAL,Arequipa,Arequipa,-16.435989,-71.565478,ACTIVO
+SUC0036,FinBank Sucursal Bogotá SUC0036,SUCURSAL,Bogotá,Cundinamarca,4.66774,-74.118959,ACTIVO
+SUC0037,FinBank Sucursal Guadalajara SUC0037,SUCURSAL,Guadalajara,Jalisco,20.676598,-103.378176,INACTIVO
+SUC0038,FinBank Sucursal Buenos Aires SUC0038,SUCURSAL,Buenos Aires,Buenos Aires,-34.596079,-58.4073,ACTIVO
+SUC0039,FinBank Sucursal Ciudad de México SUC0039,SUCURSAL,Ciudad de México,Ciudad de México,19.392293,-99.140095,ACTIVO
+SUC0040,FinBank Corresponsal Monterrey SUC0040,CORRESPONSAL,Monterrey,Nuevo León,25.642017,-100.300754,ACTIVO
+SUC0041,FinBank Sucursal Monterrey SUC0041,SUCURSAL,Monterrey,Nuevo León,25.67053,-100.279933,ACTIVO
+SUC0042,FinBank Sucursal Medellín SUC0042,SUCURSAL,Medellín,Antioquia,6.208218,-75.612851,ACTIVO
+SUC0043,FinBank Sucursal Ciudad de México SUC0043,SUCURSAL,Ciudad de México,Ciudad de México,19.426913,-99.097065,ACTIVO
+SUC0044,FinBank Corresponsal Arequipa SUC0044,CORRESPONSAL,Arequipa,Arequipa,-16.375397,-71.4906,ACTIVO
+SUC0045,FinBank Corresponsal Cali SUC0045,CORRESPONSAL,Cali,Valle del Cauca,3.442241,-76.533864,INACTIVO
+SUC0046,FinBank Sucursal Cali SUC0046,SUCURSAL,Cali,Valle del Cauca,3.439497,-76.483469,ACTIVO
+SUC0047,FinBank Corresponsal Medellín SUC0047,CORRESPONSAL,Medellín,Antioquia,6.222725,-75.561541,ACTIVO
+SUC0048,FinBank Sucursal Santiago SUC0048,SUCURSAL,Santiago,Región Metropolitana,-33.427059,-70.70382,INACTIVO
+SUC0049,FinBank Sucursal Buenos Aires SUC0049,SUCURSAL,Buenos Aires,Buenos Aires,-34.580126,-58.425504,ACTIVO
+SUC0050,FinBank Sucursal Medellín SUC0050,SUCURSAL,Medellín,Antioquia,6.244485,-75.545928,INACTIVO
+SUC0051,FinBank Sucursal Ciudad de México SUC0051,SUCURSAL,Ciudad de México,Ciudad de México,19.467734,-99.176348,ACTIVO
+SUC0052,FinBank Sucursal Valparaíso SUC0052,SUCURSAL,Valparaíso,Valparaíso,-33.085211,-71.573671,ACTIVO
+SUC0053,FinBank Sucursal Buenos Aires SUC0053,SUCURSAL,Buenos Aires,Buenos Aires,-34.645502,-58.365863,ACTIVO
+SUC0054,FinBank Sucursal Guadalajara SUC0054,SUCURSAL,Guadalajara,Jalisco,20.630126,-103.327981,ACTIVO
+SUC0055,FinBank Corresponsal Santiago SUC0055,CORRESPONSAL,Santiago,Región Metropolitana,-33.43435,-70.673578,INACTIVO
+SUC0056,FinBank Corresponsal Lima SUC0056,CORRESPONSAL,Lima,Lima,-12.050571,-76.992955,ACTIVO
+SUC0057,FinBank Sucursal Bogotá SUC0057,SUCURSAL,Bogotá,Cundinamarca,4.711588,-74.108854,ACTIVO
+SUC0058,FinBank Corresponsal Bogotá SUC0058,CORRESPONSAL,Bogotá,Cundinamarca,4.697953,-74.106325,ACTIVO
+SUC0059,FinBank Sucursal Buenos Aires SUC0059,SUCURSAL,Buenos Aires,Buenos Aires,-34.555315,-58.35089,ACTIVO
+SUC0060,FinBank Corresponsal Arequipa SUC0060,CORRESPONSAL,Arequipa,Arequipa,-16.429062,-71.521161,ACTIVO
+SUC0061,FinBank Sucursal Ciudad de México SUC0061,SUCURSAL,Ciudad de México,Ciudad de México,19.471571,-99.108958,ACTIVO
+SUC0062,FinBank Corresponsal Bogotá SUC0062,CORRESPONSAL,Bogotá,Cundinamarca,4.732761,-74.10174,ACTIVO
+SUC0063,FinBank Sucursal Medellín SUC0063,SUCURSAL,Medellín,Antioquia,6.219312,-75.540384,ACTIVO
+SUC0064,FinBank Sucursal Guadalajara SUC0064,SUCURSAL,Guadalajara,Jalisco,20.614109,-103.366244,INACTIVO
+SUC0065,FinBank Sucursal Cali SUC0065,SUCURSAL,Cali,Valle del Cauca,3.475723,-76.526832,ACTIVO
+SUC0066,FinBank Sucursal Ciudad de México SUC0066,SUCURSAL,Ciudad de México,Ciudad de México,19.477105,-99.114098,ACTIVO
+SUC0067,FinBank Sucursal Barranquilla SUC0067,SUCURSAL,Barranquilla,Atlántico,10.976751,-74.816491,ACTIVO
+SUC0068,FinBank Sucursal Córdoba SUC0068,SUCURSAL,Córdoba,Córdoba,-31.37288,-64.234811,ACTIVO
+SUC0069,FinBank Corresponsal Santiago SUC0069,CORRESPONSAL,Santiago,Región Metropolitana,-33.488621,-70.641288,ACTIVO
+SUC0070,FinBank Sucursal Buenos Aires SUC0070,SUCURSAL,Buenos Aires,Buenos Aires,-34.578752,-58.339024,ACTIVO
+SUC0071,FinBank Sucursal Córdoba SUC0071,SUCURSAL,Córdoba,Córdoba,-31.389023,-64.150658,ACTIVO
+SUC0072,FinBank Corresponsal Barranquilla SUC0072,CORRESPONSAL,Barranquilla,Atlántico,10.996739,-74.790129,ACTIVO
+SUC0073,FinBank Sucursal Bogotá SUC0073,SUCURSAL,Bogotá,Cundinamarca,4.687681,-74.043363,ACTIVO
+SUC0074,FinBank Sucursal Medellín SUC0074,SUCURSAL,Medellín,Antioquia,6.216443,-75.549541,ACTIVO
+SUC0075,FinBank Corresponsal Córdoba SUC0075,CORRESPONSAL,Córdoba,Córdoba,-31.382968,-64.216508,ACTIVO
+SUC0076,FinBank Sucursal Guadalajara SUC0076,SUCURSAL,Guadalajara,Jalisco,20.696135,-103.302911,ACTIVO
+SUC0077,FinBank Sucursal Valparaíso SUC0077,SUCURSAL,Valparaíso,Valparaíso,-33.029248,-71.578334,ACTIVO
+SUC0078,FinBank Sucursal Guadalajara SUC0078,SUCURSAL,Guadalajara,Jalisco,20.627557,-103.303347,ACTIVO
+SUC0079,FinBank Sucursal Valparaíso SUC0079,SUCURSAL,Valparaíso,Valparaíso,-33.062631,-71.584057,INACTIVO
+SUC0080,FinBank Sucursal Ciudad de México SUC0080,SUCURSAL,Ciudad de México,Ciudad de México,19.42112,-99.125541,ACTIVO
+SUC0081,FinBank Corresponsal Lima SUC0081,CORRESPONSAL,Lima,Lima,-12.044408,-77.012149,INACTIVO
+SUC0082,FinBank Sucursal Monterrey SUC0082,SUCURSAL,Monterrey,Nuevo León,25.703663,-100.329678,ACTIVO
+SUC0083,FinBank Sucursal Barranquilla SUC0083,SUCURSAL,Barranquilla,Atlántico,10.980816,-74.764961,INACTIVO
+SUC0084,FinBank Sucursal Arequipa SUC0084,SUCURSAL,Arequipa,Arequipa,-16.428072,-71.546661,ACTIVO
+SUC0085,FinBank Sucursal Cali SUC0085,SUCURSAL,Cali,Valle del Cauca,3.420784,-76.515507,ACTIVO
+SUC0086,FinBank Sucursal Cali SUC0086,SUCURSAL,Cali,Valle del Cauca,3.463151,-76.551905,ACTIVO
+SUC0087,FinBank Corresponsal Guadalajara SUC0087,CORRESPONSAL,Guadalajara,Jalisco,20.630718,-103.321024,ACTIVO
+SUC0088,FinBank Sucursal Medellín SUC0088,SUCURSAL,Medellín,Antioquia,6.238416,-75.60983,INACTIVO
+SUC0089,FinBank Sucursal Córdoba SUC0089,SUCURSAL,Córdoba,Córdoba,-31.396504,-64.172915,ACTIVO
+SUC0090,FinBank Corresponsal Buenos Aires SUC0090,CORRESPONSAL,Buenos Aires,Buenos Aires,-34.620181,-58.349758,ACTIVO
+SUC0091,FinBank Sucursal Bogotá SUC0091,SUCURSAL,Bogotá,Cundinamarca,4.741656,-74.107365,INACTIVO
+SUC0092,FinBank Sucursal Buenos Aires SUC0092,SUCURSAL,Buenos Aires,Buenos Aires,-34.568726,-58.424317,ACTIVO
+SUC0093,FinBank Sucursal Bogotá SUC0093,SUCURSAL,Bogotá,Cundinamarca,4.732835,-74.083702,ACTIVO
+SUC0094,FinBank Corresponsal Monterrey SUC0094,CORRESPONSAL,Monterrey,Nuevo León,25.637154,-100.291004,ACTIVO
+SUC0095,FinBank Corresponsal Valparaíso SUC0095,CORRESPONSAL,Valparaíso,Valparaíso,-33.075316,-71.582289,ACTIVO
+SUC0096,FinBank Sucursal Arequipa SUC0096,SUCURSAL,Arequipa,Arequipa,-16.43408,-71.502666,ACTIVO
+SUC0097,FinBank Sucursal Santiago SUC0097,SUCURSAL,Santiago,Región Metropolitana,-33.445787,-70.663407,ACTIVO
+SUC0098,FinBank Sucursal Medellín SUC0098,SUCURSAL,Medellín,Antioquia,6.255465,-75.559273,ACTIVO
+SUC0099,FinBank Corresponsal Arequipa SUC0099,CORRESPONSAL,Arequipa,Arequipa,-16.414409,-71.571584,ACTIVO
+SUC0100,FinBank Corresponsal Córdoba SUC0100,CORRESPONSAL,Córdoba,Córdoba,-31.445376,-64.175034,ACTIVO
+SUC0101,FinBank Corresponsal Santiago SUC0101,CORRESPONSAL,Santiago,Región Metropolitana,-33.474975,-70.675313,ACTIVO
+SUC0102,FinBank Sucursal Barranquilla SUC0102,SUCURSAL,Barranquilla,Atlántico,10.950471,-74.777285,ACTIVO
+SUC0103,FinBank Sucursal Monterrey SUC0103,SUCURSAL,Monterrey,Nuevo León,25.651881,-100.344705,ACTIVO
+SUC0104,FinBank Sucursal Medellín SUC0104,SUCURSAL,Medellín,Antioquia,6.235777,-75.610517,INACTIVO
+SUC0105,FinBank Corresponsal Buenos Aires SUC0105,CORRESPONSAL,Buenos Aires,Buenos Aires,-34.559094,-58.429647,ACTIVO
+SUC0106,FinBank Corresponsal Medellín SUC0106,CORRESPONSAL,Medellín,Antioquia,6.19479,-75.596024,ACTIVO
+SUC0107,FinBank Corresponsal Valparaíso SUC0107,CORRESPONSAL,Valparaíso,Valparaíso,-33.043378,-71.589237,ACTIVO
+SUC0108,FinBank Sucursal Medellín SUC0108,SUCURSAL,Medellín,Antioquia,6.216142,-75.587616,ACTIVO
+SUC0109,FinBank Corresponsal Santiago SUC0109,CORRESPONSAL,Santiago,Región Metropolitana,-33.419086,-70.646882,INACTIVO
+SUC0110,FinBank Sucursal Buenos Aires SUC0110,SUCURSAL,Buenos Aires,Buenos Aires,-34.600288,-58.340907,ACTIVO
+SUC0111,FinBank Sucursal Ciudad de México SUC0111,SUCURSAL,Ciudad de México,Ciudad de México,19.446875,-99.16963,ACTIVO
+SUC0112,FinBank Sucursal Valparaíso SUC0112,SUCURSAL,Valparaíso,Valparaíso,-33.064465,-71.61723,ACTIVO
+SUC0113,FinBank Sucursal Guadalajara SUC0113,SUCURSAL,Guadalajara,Jalisco,20.684901,-103.316408,ACTIVO
+SUC0114,FinBank Corresponsal Lima SUC0114,CORRESPONSAL,Lima,Lima,-12.021498,-77.087591,ACTIVO
+SUC0115,FinBank Corresponsal Ciudad de México SUC0115,CORRESPONSAL,Ciudad de México,Ciudad de México,19.460723,-99.118025,INACTIVO
+SUC0116,FinBank Sucursal Bogotá SUC0116,SUCURSAL,Bogotá,Cundinamarca,4.744923,-74.059966,ACTIVO
+SUC0117,FinBank Corresponsal Ciudad de México SUC0117,CORRESPONSAL,Ciudad de México,Ciudad de México,19.438997,-99.161404,ACTIVO
+SUC0118,FinBank Corresponsal Cali SUC0118,CORRESPONSAL,Cali,Valle del Cauca,3.462189,-76.485627,ACTIVO
+SUC0119,FinBank Sucursal Cali SUC0119,SUCURSAL,Cali,Valle del Cauca,3.498072,-76.57119,ACTIVO
+SUC0120,FinBank Corresponsal Santiago SUC0120,CORRESPONSAL,Santiago,Región Metropolitana,-33.408097,-70.681769,ACTIVO
+SUC0121,FinBank Sucursal Buenos Aires SUC0121,SUCURSAL,Buenos Aires,Buenos Aires,-34.584639,-58.368876,ACTIVO
+SUC0122,FinBank Corresponsal Santiago SUC0122,CORRESPONSAL,Santiago,Región Metropolitana,-33.438859,-70.707194,ACTIVO
+SUC0123,FinBank Sucursal Barranquilla SUC0123,SUCURSAL,Barranquilla,Atlántico,10.971775,-74.765148,ACTIVO
+SUC0124,FinBank Sucursal Lima SUC0124,SUCURSAL,Lima,Lima,-12.011442,-77.010567,INACTIVO
+SUC0125,FinBank Sucursal Santiago SUC0125,SUCURSAL,Santiago,Región Metropolitana,-33.409742,-70.673326,ACTIVO
+SUC0126,FinBank Corresponsal Arequipa SUC0126,CORRESPONSAL,Arequipa,Arequipa,-16.362453,-71.560492,ACTIVO
+SUC0127,FinBank Sucursal Medellín SUC0127,SUCURSAL,Medellín,Antioquia,6.240687,-75.548627,ACTIVO
+SUC0128,FinBank Corresponsal Bogotá SUC0128,CORRESPONSAL,Bogotá,Cundinamarca,4.744073,-74.113434,ACTIVO
+SUC0129,FinBank Sucursal Medellín SUC0129,SUCURSAL,Medellín,Antioquia,6.251185,-75.564381,ACTIVO
+SUC0130,FinBank Corresponsal Barranquilla SUC0130,CORRESPONSAL,Barranquilla,Atlántico,10.936684,-74.810088,ACTIVO
+SUC0131,FinBank Sucursal Buenos Aires SUC0131,SUCURSAL,Buenos Aires,Buenos Aires,-34.583582,-58.403973,INACTIVO
+SUC0132,FinBank Sucursal Ciudad de México SUC0132,SUCURSAL,Ciudad de México,Ciudad de México,19.406736,-99.142557,ACTIVO
+SUC0133,FinBank Corresponsal Medellín SUC0133,CORRESPONSAL,Medellín,Antioquia,6.25879,-75.582118,ACTIVO
+SUC0134,FinBank Corresponsal Bogotá SUC0134,CORRESPONSAL,Bogotá,Cundinamarca,4.70144,-74.097769,ACTIVO
+SUC0135,FinBank Corresponsal Arequipa SUC0135,CORRESPONSAL,Arequipa,Arequipa,-16.405908,-71.54495,ACTIVO
+SUC0136,FinBank Sucursal Monterrey SUC0136,SUCURSAL,Monterrey,Nuevo León,25.681975,-100.335438,ACTIVO
+SUC0137,FinBank Corresponsal Barranquilla SUC0137,CORRESPONSAL,Barranquilla,Atlántico,10.930455,-74.777714,ACTIVO
+SUC0138,FinBank Sucursal Bogotá SUC0138,SUCURSAL,Bogotá,Cundinamarca,4.73486,-74.09445,ACTIVO
+SUC0139,FinBank Sucursal Buenos Aires SUC0139,SUCURSAL,Buenos Aires,Buenos Aires,-34.6254,-58.421547,ACTIVO
+SUC0140,FinBank Sucursal Cali SUC0140,SUCURSAL,Cali,Valle del Cauca,3.431827,-76.511198,ACTIVO
+SUC0141,FinBank Sucursal Lima SUC0141,SUCURSAL,Lima,Lima,-12.041064,-77.023058,ACTIVO
+SUC0142,FinBank Sucursal Medellín SUC0142,SUCURSAL,Medellín,Antioquia,6.204459,-75.629973,ACTIVO
+SUC0143,FinBank Corresponsal Barranquilla SUC0143,CORRESPONSAL,Barranquilla,Atlántico,10.936936,-74.826162,ACTIVO
+SUC0144,FinBank Corresponsal Ciudad de México SUC0144,CORRESPONSAL,Ciudad de México,Ciudad de México,19.422671,-99.175792,ACTIVO
+SUC0145,FinBank Sucursal Cali SUC0145,SUCURSAL,Cali,Valle del Cauca,3.482714,-76.487087,ACTIVO
+SUC0146,FinBank Corresponsal Arequipa SUC0146,CORRESPONSAL,Arequipa,Arequipa,-16.382556,-71.526868,ACTIVO
+SUC0147,FinBank Sucursal Arequipa SUC0147,SUCURSAL,Arequipa,Arequipa,-16.420962,-71.49665,ACTIVO
+SUC0148,FinBank Corresponsal Valparaíso SUC0148,CORRESPONSAL,Valparaíso,Valparaíso,-33.066662,-71.600597,ACTIVO
+SUC0149,FinBank Corresponsal Córdoba SUC0149,CORRESPONSAL,Córdoba,Córdoba,-31.449321,-64.217697,ACTIVO
+SUC0150,FinBank Sucursal Cali SUC0150,SUCURSAL,Cali,Valle del Cauca,3.456799,-76.566347,ACTIVO
+SUC0151,FinBank Corresponsal Medellín SUC0151,CORRESPONSAL,Medellín,Antioquia,6.223326,-75.608052,ACTIVO
+SUC0152,FinBank Sucursal Medellín SUC0152,SUCURSAL,Medellín,Antioquia,6.201318,-75.607858,ACTIVO
+SUC0153,FinBank Sucursal Buenos Aires SUC0153,SUCURSAL,Buenos Aires,Buenos Aires,-34.587582,-58.338233,ACTIVO
+SUC0154,FinBank Sucursal Santiago SUC0154,SUCURSAL,Santiago,Región Metropolitana,-33.484001,-70.692737,ACTIVO
+SUC0155,FinBank Sucursal Córdoba SUC0155,SUCURSAL,Córdoba,Córdoba,-31.439339,-64.163904,ACTIVO
+SUC0156,FinBank Sucursal Ciudad de México SUC0156,SUCURSAL,Ciudad de México,Ciudad de México,19.42947,-99.152791,ACTIVO
+SUC0157,FinBank Sucursal Arequipa SUC0157,SUCURSAL,Arequipa,Arequipa,-16.40962,-71.579456,ACTIVO
+SUC0158,FinBank Sucursal Barranquilla SUC0158,SUCURSAL,Barranquilla,Atlántico,10.978871,-74.828714,ACTIVO
+SUC0159,FinBank Corresponsal Buenos Aires SUC0159,CORRESPONSAL,Buenos Aires,Buenos Aires,-34.594988,-58.429525,ACTIVO
+SUC0160,FinBank Sucursal Buenos Aires SUC0160,SUCURSAL,Buenos Aires,Buenos Aires,-34.649677,-58.355973,ACTIVO
+SUC0161,FinBank Corresponsal Guadalajara SUC0161,CORRESPONSAL,Guadalajara,Jalisco,20.627849,-103.341067,ACTIVO
+SUC0162,FinBank Sucursal Ciudad de México SUC0162,SUCURSAL,Ciudad de México,Ciudad de México,19.429601,-99.142365,ACTIVO
+SUC0163,FinBank Sucursal Cali SUC0163,SUCURSAL,Cali,Valle del Cauca,3.43458,-76.512633,INACTIVO
+SUC0164,FinBank Sucursal Córdoba SUC0164,SUCURSAL,Córdoba,Córdoba,-31.41509,-64.193317,ACTIVO
+SUC0165,FinBank Corresponsal Córdoba SUC0165,CORRESPONSAL,Córdoba,Córdoba,-31.429682,-64.18734,ACTIVO
+SUC0166,FinBank Sucursal Arequipa SUC0166,SUCURSAL,Arequipa,Arequipa,-16.412802,-71.58208,ACTIVO
+SUC0167,FinBank Sucursal Medellín SUC0167,SUCURSAL,Medellín,Antioquia,6.256741,-75.555201,ACTIVO
+SUC0168,FinBank Sucursal Guadalajara SUC0168,SUCURSAL,Guadalajara,Jalisco,20.653512,-103.329775,INACTIVO
+SUC0169,FinBank Sucursal Buenos Aires SUC0169,SUCURSAL,Buenos Aires,Buenos Aires,-34.573769,-58.360622,ACTIVO
+SUC0170,FinBank Corresponsal Valparaíso SUC0170,CORRESPONSAL,Valparaíso,Valparaíso,-33.087879,-71.563474,ACTIVO
+SUC0171,FinBank Corresponsal Ciudad de México SUC0171,CORRESPONSAL,Ciudad de México,Ciudad de México,19.447371,-99.167803,ACTIVO
+SUC0172,FinBank Corresponsal Monterrey SUC0172,CORRESPONSAL,Monterrey,Nuevo León,25.663942,-100.282628,ACTIVO
+SUC0173,FinBank Sucursal Arequipa SUC0173,SUCURSAL,Arequipa,Arequipa,-16.444536,-71.568439,ACTIVO
+SUC0174,FinBank Corresponsal Cali SUC0174,CORRESPONSAL,Cali,Valle del Cauca,3.488003,-76.554375,ACTIVO
+SUC0175,FinBank Sucursal Córdoba SUC0175,SUCURSAL,Córdoba,Córdoba,-31.419326,-64.156745,ACTIVO
+SUC0176,FinBank Corresponsal Buenos Aires SUC0176,CORRESPONSAL,Buenos Aires,Buenos Aires,-34.595708,-58.365606,ACTIVO
+SUC0177,FinBank Sucursal Medellín SUC0177,SUCURSAL,Medellín,Antioquia,6.228712,-75.576008,ACTIVO
+SUC0178,FinBank Sucursal Barranquilla SUC0178,SUCURSAL,Barranquilla,Atlántico,11.00546,-74.733223,ACTIVO
+SUC0179,FinBank Sucursal Córdoba SUC0179,SUCURSAL,Córdoba,Córdoba,-31.429022,-64.206982,INACTIVO
+SUC0180,FinBank Corresponsal Valparaíso SUC0180,CORRESPONSAL,Valparaíso,Valparaíso,-33.058592,-71.596331,INACTIVO
+SUC0181,FinBank Corresponsal Medellín SUC0181,CORRESPONSAL,Medellín,Antioquia,6.290682,-75.618575,ACTIVO
+SUC0182,FinBank Sucursal Ciudad de México SUC0182,SUCURSAL,Ciudad de México,Ciudad de México,19.470019,-99.139169,ACTIVO
+SUC0183,FinBank Corresponsal Monterrey SUC0183,CORRESPONSAL,Monterrey,Nuevo León,25.651016,-100.279007,ACTIVO
+SUC0184,FinBank Corresponsal Córdoba SUC0184,CORRESPONSAL,Córdoba,Córdoba,-31.37318,-64.204944,ACTIVO
+SUC0185,FinBank Sucursal Barranquilla SUC0185,SUCURSAL,Barranquilla,Atlántico,11.003734,-74.745366,ACTIVO
+SUC0186,FinBank Sucursal Monterrey SUC0186,SUCURSAL,Monterrey,Nuevo León,25.725344,-100.317305,ACTIVO
+SUC0187,FinBank Corresponsal Bogotá SUC0187,CORRESPONSAL,Bogotá,Cundinamarca,4.724116,-74.030007,ACTIVO
+SUC0188,FinBank Corresponsal Valparaíso SUC0188,CORRESPONSAL,Valparaíso,Valparaíso,-32.999366,-71.586663,ACTIVO
+SUC0189,FinBank Sucursal Cali SUC0189,SUCURSAL,Cali,Valle del Cauca,3.471,-76.491658,ACTIVO
+SUC0190,FinBank Sucursal Guadalajara SUC0190,SUCURSAL,Guadalajara,Jalisco,20.645546,-103.356531,ACTIVO
+SUC0191,FinBank Sucursal Santiago SUC0191,SUCURSAL,Santiago,Región Metropolitana,-33.419648,-70.702302,ACTIVO
+SUC0192,FinBank Sucursal Buenos Aires SUC0192,SUCURSAL,Buenos Aires,Buenos Aires,-34.585387,-58.381833,ACTIVO
+SUC0193,FinBank Sucursal Santiago SUC0193,SUCURSAL,Santiago,Región Metropolitana,-33.473502,-70.693767,ACTIVO
+SUC0194,FinBank Sucursal Guadalajara SUC0194,SUCURSAL,Guadalajara,Jalisco,20.677461,-103.383802,ACTIVO
+SUC0195,FinBank Corresponsal Buenos Aires SUC0195,CORRESPONSAL,Buenos Aires,Buenos Aires,-34.623785,-58.335397,ACTIVO
+SUC0196,FinBank Sucursal Guadalajara SUC0196,SUCURSAL,Guadalajara,Jalisco,20.629622,-103.361131,ACTIVO
+SUC0197,FinBank Corresponsal Buenos Aires SUC0197,CORRESPONSAL,Buenos Aires,Buenos Aires,-34.617804,-58.402013,ACTIVO
+SUC0198,FinBank Corresponsal Santiago SUC0198,CORRESPONSAL,Santiago,Región Metropolitana,-33.459319,-70.71849,ACTIVO
+SUC0199,FinBank Corresponsal Lima SUC0199,CORRESPONSAL,Lima,Lima,-12.005338,-77.018283,INACTIVO
+SUC0200,FinBank Sucursal Córdoba SUC0200,SUCURSAL,Córdoba,Córdoba,-31.390214,-64.178094,ACTIVO
