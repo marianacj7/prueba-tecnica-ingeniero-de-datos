@@ -556,6 +556,156 @@ Por ejemplo, si un producto tiene:
 ```text
 cod_prod = CR013
 comision_admin = 8
+
+De esta forma, la tabla no genera de manera independiente los valores de comisión, sino que mantiene la relación con el catálogo de productos.
+
+### Tipo de comisión
+
+De acuerdo con la información disponible en `TB_PRODUCTOS_CAT`, se utiliza:
+
+```
+COMISION_ADMIN
+```
+
+como tipo de comisión.
+
+No se agregaron tipos de comisión ni tarifas que no estén definidas en la información disponible del catálogo.
+
+### Estados del cobro
+
+Los registros se distribuyen entre los siguientes estados:
+
+- `COBRADA`: comisión efectivamente cobrada al cliente.
+- `PENDIENTE`: comisión registrada pero aún no cobrada.
+- `RECHAZADA`: comisión cuyo cobro fue rechazado.
+
+Las comisiones con estado `COBRADA` son las que posteriormente podrán ser consideradas como ingresos efectivos para el cálculo del CLTV.
+
+### Cobertura temporal
+
+Los registros normales cubren un periodo de 12 meses:
+
+```
+2025-08-01 → 2026-07-31
+```
+
+Adicionalmente, se incorporaron intencionalmente **20 registros con fechas anteriores al periodo definido**, con el objetivo de probar las validaciones de calidad de datos.
+
+La ejecución presentó como fecha mínima:
+
+```
+2025-06-14
+```
+
+debido a estas anomalías intencionales.
+
+### Valores nulos controlados
+
+Se incorporaron **4.000 valores nulos** en el campo `tip_comision`.
+
+Esto representa exactamente el **5 % de los 80.000 registros**.
+
+El campo fue seleccionado como campo no crítico para mantener completos los identificadores, fechas, valores monetarios y estados necesarios para los análisis principales.
+
+### Anomalías intencionales
+
+Se incorporaron tres tipos de anomalías para permitir la validación posterior de calidad de datos.
+
+#### 1. Comisiones inconsistentes con el catálogo
+
+Se generaron **20 registros** cuyo `vr_comision` no coincide intencionalmente con el valor `comision_admin` definido para el mismo `cod_prod` en `TB_PRODUCTOS_CAT`.
+
+Esta validación permite comprobar la consistencia entre ambas tablas.
+
+Resultado obtenido:
+
+```
+Comisiones inconsistentes con el catálogo:
+20
+```
+
+#### 2. Fechas fuera de rango
+
+Se generaron **20 registros** con fechas anteriores al periodo histórico esperado.
+
+Resultado obtenido:
+
+```
+Comisiones fuera del rango:
+20
+```
+
+#### 3. Duplicados de negocio
+
+Se generaron **20 registros duplicados** utilizando como criterio los principales atributos de negocio:
+
+```
+id_cli
+cod_prod
+fec_cobro
+vr_comision
+tip_comision
+estado_cobro
+```
+
+Resultado obtenido:
+
+```
+Duplicados de negocio:
+20
+```
+
+### Validaciones realizadas
+
+Durante la generación se realizaron validaciones de integridad y calidad:
+
+| Validación | Resultado |
+| --------------------------------- | ------ |
+| Total de comisiones | 80.000 |
+| Clientes inexistentes | 0 |
+| Productos inexistentes | 0 |
+| Nulos en `tip_comision` | 4.000 |
+| Inconsistencias con el catálogo | 20 |
+| Duplicados de negocio | 20 |
+| Comisiones fuera de rango | 20 |
+| Comisiones efectivamente cobradas | 71.979 |
+
+La validación de integridad referencial confirmó que todos los valores de `id_cli` corresponden a clientes existentes y que todos los valores de `cod_prod` corresponden a productos registrados en `TB_PRODUCTOS_CAT`.
+
+### Consistencia de la generación
+
+El script utiliza una semilla fija:
+
+```
+SEED = 42
+```
+
+Esto permite que las ejecuciones posteriores produzcan los mismos registros y resultados bajo las mismas condiciones.
+
+La consistencia fue comprobada ejecutando el script dos veces y verificando que los primeros registros, las distribuciones y los resultados de las validaciones fueran iguales.
+
+### Relación con las necesidades del negocio
+
+`TB_COMISIONES_LOG` proporciona información necesaria para:
+
+- Identificar los ingresos generados por concepto de comisiones.
+- Diferenciar las comisiones efectivamente cobradas de las pendientes o rechazadas.
+- Analizar los ingresos por producto y cliente.
+- Validar la consistencia de las comisiones frente al catálogo de productos.
+- Proporcionar información para el cálculo del Customer Lifetime Value (CLTV).
+
+Para el cálculo del CLTV, únicamente las comisiones con estado `COBRADA` deben considerarse como ingresos efectivos.
+
+La tabla de comisiones se utilizará junto con `TB_OBLIGACIONES` para obtener los ingresos asociados a cada cliente durante los últimos 12 meses calendario.
+
+### Formatos de salida
+
+La tabla se exporta en dos formatos para simular un escenario de ingesta heterogénea:
+
+```
+Data/TB_COMISIONES_LOG.csv
+Data/TB_COMISIONES_LOG.json
+```
 ## Arquitectura de la solución
 
 ## Modelo de datos
