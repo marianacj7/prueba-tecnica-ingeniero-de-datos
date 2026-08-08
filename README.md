@@ -706,12 +706,71 @@ La tabla se exporta en dos formatos para simular un escenario de ingesta heterog
 Data/TB_COMISIONES_LOG.csv
 Data/TB_COMISIONES_LOG.json
 ```
-## Arquitectura de la solución
 
-## Modelo de datos
+## Configuración y reproducibilidad
 
-## Flujo de procesamiento de datos
+Los parámetros utilizados para la generación de los datos fueron centralizados en:
 
-## Infraestructura como Código (IaC)
+`config/parametros_generacion.json`
 
-## Conclusiones
+Se utilizó una semilla fija (`42`) para permitir la reproducibilidad de los datos generados.
+
+La configuración permite controlar parámetros como:
+
+- Cantidad de registros.
+- Semilla de generación.
+- Rangos de fechas.
+- Parámetros utilizados por los diferentes procesos de generación.
+
+De esta manera, los datos pueden ser regenerados sin modificar directamente la lógica de los scripts.
+
+## Scripts desarrollados
+
+Se desarrolló un script independiente para cada proceso de generación:
+
+| Script | Tabla generada | Registros |
+|---|---|---:|
+| `generar_datos.py` | `TB_CLIENTES_CORE` | 10.000 |
+| `generar_productos.py` | `TB_PRODUCTOS_CAT` | Catálogo maestro |
+| `generar_obligaciones.py` | `TB_OBLIGACIONES` | 30.000 |
+| `generar_sucursales.py` | `TB_SUCURSALES_RED` | 200 |
+| `generar_movimientos.py` | `TB_MOV_FINANCIEROS` | 500.000 |
+| `generar_comisiones.py` | `TB_COMISIONES_LOG` | 80.000 |
+
+Los scripts incluyen validaciones de integridad y calidad de datos, además de la generación de las anomalías intencionales definidas en la prueba.
+
+## Validaciones implementadas
+
+Como parte del proceso de generación se incorporaron validaciones para comprobar:
+
+- Integridad referencial entre las tablas.
+- Registros inexistentes en las tablas relacionadas.
+- Valores nulos.
+- Duplicados de negocio.
+- Fechas fuera del rango establecido.
+- Valores atípicos.
+- Consistencia de las comisiones frente al catálogo de productos.
+- Coherencia entre valores aprobados, desembolsados y saldos.
+
+Las anomalías fueron incorporadas intencionalmente para que puedan ser identificadas posteriormente durante los procesos de calidad y análisis en SQL.
+
+## Consideración sobre `TB_MOV_FINANCIEROS.json`
+
+El archivo `TB_MOV_FINANCIEROS.json` fue generado correctamente durante el proceso local de generación de datos. Sin embargo, debido a su tamaño superior al límite permitido por GitHub para archivos individuales, no se incluyó en el repositorio.
+
+El dataset puede ser regenerado ejecutando:
+
+```bash
+python Scripts/generar_movimientos.py
+
+Por lo tanto, el archivo no se pierde como parte del proceso reproducible: su generación está documentada y automatizada mediante el script correspondiente.
+
+## Repositorio
+
+El código fuente, los scripts, la configuración y los archivos de datos disponibles se encuentran publicados en GitHub:
+
+https://github.com/marianacj7/prueba-tecnica-ingeniero-de-datos
+
+La rama principal utilizada para la entrega es:
+
+`master`
