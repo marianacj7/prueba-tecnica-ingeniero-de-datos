@@ -774,3 +774,21 @@ https://github.com/marianacj7/prueba-tecnica-ingeniero-de-datos
 La rama principal utilizada para la entrega es:
 
 `master`
+## Evidencia de carga en Azure SQL
+
+Los datos sintéticos fueron cargados exitosamente en Azure SQL Database mediante el script:
+
+```text
+Scripts/cargar_datos_sql.py
+La carga fue validada directamente en Azure SQL Database mediante una consulta SELECT COUNT(*) sobre cada tabla, confirmando el volumen de registros cargados.
+
+| Tabla                | Registros |
+| -------------------- | --------- |
+| `TB_CLIENTES_CORE`   | 10.000    |
+| `TB_PRODUCTOS_CAT`   | 50        |
+| `TB_OBLIGACIONES`    | 30.000    |
+| `TB_SUCURSALES_RED`  | 200       |
+| `TB_MOV_FINANCIEROS` | 500.000   |
+| `TB_COMISIONES_LOG`  | 80.000    |
+
+![Evidencia de carga en Azure SQL](Evidencia_carga_azure_sql.png)
