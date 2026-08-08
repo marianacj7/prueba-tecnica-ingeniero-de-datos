@@ -186,6 +186,376 @@ Una vez generado el catálogo se verificó:
 - Presencia de valores nulos únicamente en los campos donde el atributo no aplica.
 - Exportación correcta de la información a los formatos CSV y JSON.
 
+## Generación de la tabla `TB_OBLIGACIONES`
+
+La tabla **TB_OBLIGACIONES** representa las obligaciones crediticias de los clientes de FinBank y permite modelar la cartera sobre la cual posteriormente se calcularán indicadores de mora, riesgo y rentabilidad.
+
+La tabla contiene **30.000 registros** y se relaciona directamente con las tablas `TB_CLIENTES_CORE` y `TB_PRODUCTOS_CAT` mediante los campos `id_cli` y `cod_prod`, respectivamente.
+
+### Relación con clientes y productos
+
+Cada obligación se asigna a un cliente existente en `TB_CLIENTES_CORE`, utilizando su información de segmento, score de buró y fecha de alta como referencia para la generación de los datos.
+
+De igual manera, cada obligación se relaciona con un producto existente en `TB_PRODUCTOS_CAT`. Para esta tabla únicamente se utilizan productos pertenecientes a la línea **Crédito de consumo**, ya que son los productos que generan una obligación financiera y pueden presentar saldo, cuotas y días de mora.
+
+Los productos considerados corresponden a las variantes definidas previamente en el catálogo para:
+
+- Crédito de libre inversión.
+- Crédito rotativo.
+- Tarjeta digital.
+
+De esta manera, no se generan códigos de producto independientes ni valores que no existan previamente en el catálogo maestro.
+
+### Criterios de generación
+
+Los montos de las obligaciones se expresan en **dólares estadounidenses (USD)**, manteniendo la hipótesis de moneda común definida para el proyecto.
+
+El valor aprobado se determina de acuerdo con el tipo de producto y el segmento del cliente. Se establecieron rangos diferentes para los segmentos **Básico (BAS), Estándar (STD), Premium (PRE) y Elite (ELI)**, buscando representar una mayor capacidad de crédito en los segmentos de mayores ingresos.
+
+El `vr_desembolsado` se genera a partir del valor aprobado, manteniendo normalmente el mismo valor y permitiendo en una proporción menor desembolsos inferiores al monto aprobado.
+
+El `sdo_capital` se mantiene siempre por debajo o igual al valor desembolsado. Su comportamiento se relaciona con los días de mora, permitiendo representar diferentes niveles de saldo pendiente en la cartera.
+
+### Fechas y plazo
+
+La fecha de desembolso se genera siempre a partir de la fecha de alta del cliente, evitando que una obligación sea creada antes de que el cliente exista en la entidad.
+
+El campo `plazo_max_meses` se toma directamente de `TB_PRODUCTOS_CAT`, manteniendo la lógica definida para cada producto. A partir de este valor se calcula la fecha de vencimiento y el número de cuotas pendientes.
+
+Para productos cuyo catálogo no define un plazo contractual fijo, se utiliza un horizonte técnico de **12 meses** únicamente para realizar los cálculos derivados necesarios para la simulación.
+
+### Mora y riesgo
+
+Los días de mora se generaron utilizando una distribución no uniforme, buscando representar una cartera predominantemente al día y una proporción menor de obligaciones con diferentes niveles de deterioro.
+
+La clasificación utilizada corresponde a los rangos establecidos en las reglas de negocio:
+
+- **Al día:** 0 días.
+- **Rango 1:** 1–30 días.
+- **Rango 2:** 31–60 días.
+- **Rango 3:** 61–90 días.
+- **Deteriorado:** más de 90 días.
+
+La calificación de riesgo se determina considerando conjuntamente el `score_buro` del cliente y los días de mora de la obligación, generando las categorías **BAJO, MEDIO, ALTO y CRITICO**.
+
+Esta estructura permitirá posteriormente construir el campo calculado `bucket_mora` requerido para los indicadores de cartera.
+
+### Calidad de datos y anomalías
+
+Para cumplir con el requisito de simular condiciones reales de calidad de datos, se incorporó aproximadamente un **5 % de valores nulos controlados** en el campo `calif_riesgo`, simulando registros cuya clasificación de riesgo se encuentra pendiente de actualización.
+
+También se incorporaron **20 anomalías intencionales** en las que el `vr_desembolsado` supera el `vr_aprobado`. Estas anomalías serán utilizadas posteriormente para probar las reglas de calidad y detección del pipeline.
+
+### Validaciones realizadas
+
+Antes de exportar la información se realizaron las siguientes validaciones:
+
+- Todos los `id_cli` de las obligaciones existen en `TB_CLIENTES_CORE`.
+- Todos los `cod_prod` existen en `TB_PRODUCTOS_CAT`.
+- Todos los productos utilizados pertenecen a la línea Crédito de consumo.
+- No existen saldos de capital superiores al valor desembolsado.
+- No existen fechas de desembolso posteriores a la fecha de vencimiento.
+- Se verificó la presencia de las 20 anomalías intencionales.
+- Se verificó el 5 % de valores nulos en `calif_riesgo`.
+
+Los resultados obtenidos fueron:
+
+| Validación | Resultado |
+|---|---:|
+| Registros generados | 30.000 |
+| Clientes inexistentes | 0 |
+| Productos inexistentes | 0 |
+| Productos que no son de crédito | 0 |
+| Saldos mayores al desembolso | 0 |
+| Desembolsos posteriores al vencimiento | 0 |
+| Anomalías `vr_desembolsado > vr_aprobado` | 20 |
+| Nulos en `calif_riesgo` | 1.500 (5 %) |
+
+### Generación consistente de datos
+
+La generación se realiza mediante el script `Scripts/generar_obligaciones.py` utilizando una **semilla aleatoria fija (`random.seed(42)`)**.
+
+Esto permite obtener los mismos datos cada vez que el script se ejecuta bajo las mismas condiciones. Esta característica fue comprobada mediante dos ejecuciones consecutivas del script, verificando que los registros generados y los resultados obtenidos fueran iguales.
+
+### Formatos de salida
+
+La tabla se exporta en dos formatos para cumplir con el requisito de ingesta heterogénea:
+
+```text
+Data/TB_OBLIGACIONES.csv
+Data/TB_OBLIGACIONES.json
+
+## Generación de la tabla `TB_SUCURSALES_RED`
+
+La tabla **TB_SUCURSALES_RED** representa la red de puntos de atención de FinBank y contiene información geográfica y operativa de las sucursales y corresponsales de la entidad.
+
+La tabla contiene **200 registros** y está compuesta por los siguientes campos:
+
+- `cod_suc`: código único del punto de atención.
+- `nom_suc`: nombre del punto de atención.
+- `tip_punto`: tipo de punto de atención.
+- `ciudad`: ciudad donde se encuentra ubicado.
+- `depto`: departamento o división geográfica asociada.
+- `latitud`: coordenada geográfica de referencia.
+- `longitud`: coordenada geográfica de referencia.
+- `activo`: estado operativo del punto.
+
+### Criterios de generación
+
+La información se generó mediante el script `Scripts/generar_sucursales.py`.
+
+Para mantener la consistencia geográfica del modelo, las ciudades y departamentos se tomaron como referencia de las ciudades existentes en `TB_CLIENTES_CORE`. De esta manera, la red de puntos de atención utiliza una geografía coherente con la base de clientes y puede relacionarse posteriormente con los movimientos financieros y los indicadores por ciudad.
+
+Las coordenadas de latitud y longitud corresponden a valores de referencia de cada ciudad. Para permitir que diferentes puntos de una misma ciudad tengan ubicaciones distintas, se aplicó una pequeña variación alrededor de las coordenadas base.
+
+### Tipos de punto
+
+De acuerdo con el modelo de negocio de FinBank, se utilizaron dos tipos de puntos de atención:
+
+- **Sucursal:** punto de atención física de la entidad.
+- **Corresponsal:** punto aliado que permite realizar operaciones y servicios transaccionales.
+
+La distribución generada fue:
+
+| Tipo de punto | Registros |
+|---|---:|
+| Sucursal | 125 |
+| Corresponsal | 75 |
+| **Total** | **200** |
+
+### Estado de los puntos
+
+La mayoría de los puntos se encuentran activos, permitiendo representar una red operativa con algunos puntos que pueden encontrarse fuera de operación.
+
+La distribución generada fue:
+
+| Estado | Registros |
+|---|---:|
+| ACTIVO | 174 |
+| INACTIVO | 26 |
+| **Total** | **200** |
+
+### Calidad de datos
+
+Para esta tabla no se incorporaron valores nulos, debido a que todos los campos definidos son necesarios para identificar, ubicar y clasificar un punto de atención.
+
+La validación realizada mostró:
+
+| Campo | Valores nulos |
+|---|---:|
+| `cod_suc` | 0 |
+| `nom_suc` | 0 |
+| `tip_punto` | 0 |
+| `ciudad` | 0 |
+| `depto` | 0 |
+| `latitud` | 0 |
+| `longitud` | 0 |
+| `activo` | 0 |
+
+También se verificó que los códigos de sucursal fueran únicos y que la tabla contara con los **200 registros** requeridos.
+
+### Generación consistente de datos
+
+La generación se realiza utilizando una **semilla aleatoria fija (`random.seed(42)`)**, lo que permite obtener los mismos datos cada vez que el script se ejecuta bajo las mismas condiciones.
+
+La consistencia fue comprobada mediante dos ejecuciones consecutivas del script, verificando que los resultados obtenidos fueran iguales.
+
+### Formatos de salida
+
+La tabla se exporta en dos formatos para cumplir con el requisito de ingesta heterogénea:
+
+```text
+Data/TB_SUCURSALES_RED.csv
+Data/TB_SUCURSALES_RED.json
+
+## Generación de la tabla `TB_MOV_FINANCIEROS`
+
+La tabla **TB_MOV_FINANCIEROS** contiene el registro histórico de movimientos financieros realizados por los clientes de FinBank y constituye una de las principales tablas de hechos del modelo.
+
+La tabla contiene **500.000 registros** y está compuesta por los siguientes campos:
+
+- `id_mov`: identificador único del movimiento.
+- `id_cli`: identificador del cliente que realiza la operación.
+- `cod_prod`: código del producto asociado al movimiento.
+- `num_cuenta`: número de cuenta asociado a la operación.
+- `fec_mov`: fecha en la que se realizó el movimiento.
+- `hra_mov`: hora en la que se realizó el movimiento.
+- `vr_mov`: valor monetario del movimiento, expresado en USD.
+- `tip_mov`: tipo de movimiento realizado.
+- `cod_canal`: canal utilizado para realizar la operación.
+- `cod_ciudad`: código de la ciudad asociada al cliente.
+- `cod_estado_mov`: estado de la transacción.
+- `id_dispositivo`: identificador del dispositivo utilizado.
+
+### Relación con las tablas existentes
+
+La generación de los movimientos se realizó tomando como referencia las tablas previamente construidas, con el objetivo de mantener la integridad referencial del modelo.
+
+El campo `id_cli` se obtiene exclusivamente de los clientes existentes en `TB_CLIENTES_CORE`, mientras que `cod_prod` se obtiene de `TB_PRODUCTOS_CAT`.
+
+Para los movimientos se utilizaron las tres líneas de producto definidas para FinBank:
+
+- Crédito de consumo.
+- Cuentas de ahorro digitales.
+- Servicios transaccionales.
+
+La distribución utilizada fue aproximadamente:
+
+- 45 % para crédito de consumo.
+- 30 % para cuentas de ahorro digitales.
+- 25 % para servicios transaccionales.
+
+El campo `cod_ciudad` se construyó a partir de las ciudades existentes en `TB_CLIENTES_CORE`, asignando un código único a cada ciudad para mantener una relación consistente con la información geográfica del cliente.
+
+### Generación de cuentas y dispositivos
+
+Debido a que el modelo de datos proporcionado no incluye una tabla independiente de cuentas, el campo `num_cuenta` se generó de manera sintética a partir del cliente y la línea de producto.
+
+Se utilizaron prefijos diferentes según la línea:
+
+- `CR`: Crédito de consumo.
+- `AH`: Cuentas de ahorro digitales.
+- `TR`: Servicios transaccionales.
+
+Los dispositivos también fueron generados de forma sintética mediante identificadores asociados al cliente y a un número de dispositivo.
+
+### Distribuciones de los datos
+
+Los movimientos no fueron generados mediante una distribución completamente uniforme. Se aplicaron diferentes probabilidades según el tipo de producto y operación para representar un comportamiento más cercano al de una entidad financiera.
+
+Los montos (`vr_mov`) fueron generados mediante distribuciones lognormales con parámetros diferentes según el tipo de movimiento. Todos los valores monetarios se expresan en **USD**.
+
+Para la hora de la operación (`hra_mov`) se asignaron mayores probabilidades a las horas de mayor actividad, buscando representar una mayor concentración de transacciones durante horarios habituales de operación.
+
+Los estados de las transacciones se distribuyeron entre:
+
+- `APROBADA`
+- `RECHAZADA`
+- `REVERSADA`
+
+### Cobertura temporal
+
+Los datos cubren un periodo de **12 meses**, desde agosto de 2025 hasta julio de 2026.
+
+El periodo permite generar el histórico necesario para los análisis de comportamiento de clientes y para la regla de detección de transacciones atípicas basada en el histórico de los últimos 30 días.
+
+### Valores nulos controlados
+
+De acuerdo con los requisitos del ejercicio, se incorporó aproximadamente un **5 % de valores nulos en un campo no crítico**.
+
+El campo seleccionado fue `id_dispositivo`.
+
+De los 500.000 movimientos generados:
+
+- 25.000 registros tienen `id_dispositivo` nulo.
+- Esto corresponde exactamente al **5 %** del total.
+
+Los demás campos mantienen información completa debido a que son necesarios para las relaciones y análisis principales del modelo.
+
+### Anomalías intencionales
+
+Para cumplir con el requisito de calidad de datos, se incorporaron tres patrones de anomalías documentados.
+
+#### 1. Transacciones duplicadas
+
+Se generaron **30 transacciones duplicadas** utilizando como criterio de comparación los principales atributos de negocio del movimiento.
+
+Estas anomalías permitirán probar posteriormente las reglas de detección y manejo de duplicados dentro del pipeline.
+
+#### 2. Fechas fuera de rango
+
+Se generaron **30 movimientos con fechas anteriores al periodo histórico definido**.
+
+El periodo esperado comienza el:
+
+`2025-08-01`
+
+Los registros anómalos presentan fechas anteriores a este límite y permiten probar la detección de registros fuera del rango temporal esperado.
+
+#### 3. Montos atípicos
+
+Se generaron **30 movimientos con valores superiores o iguales a 500.000 USD**.
+
+Estos registros fueron incorporados intencionalmente para representar comportamientos extremos y posteriormente permitir la validación de las reglas de detección de operaciones sospechosas.
+
+### Validaciones realizadas
+
+Durante la generación se realizaron validaciones de integridad y calidad de los datos:
+
+| Validación | Resultado |
+|---|---:|
+| Total de movimientos | 500.000 |
+| Clientes inexistentes | 0 |
+| Productos inexistentes | 0 |
+| Nulos en `id_dispositivo` | 25.000 |
+| Duplicados intencionales | 30 |
+| Movimientos fuera de rango | 30 |
+| Montos atípicos intencionales | 30 |
+
+La validación de integridad referencial confirmó que todos los valores de `id_cli` corresponden a clientes existentes y que todos los valores de `cod_prod` corresponden a productos registrados en `TB_PRODUCTOS_CAT`.
+
+### Consistencia de la generación
+
+Para garantizar que los datos puedan generarse nuevamente bajo las mismas condiciones, el script utiliza una semilla fija:
+
+```python
+SEED = 42
+rng = np.random.default_rng(SEED)
+
+Esto permite que las ejecuciones posteriores produzcan los mismos registros, distribuciones y anomalías bajo las mismas condiciones.
+
+La consistencia fue comprobada ejecutando el script dos veces y verificando que los resultados obtenidos fueran iguales.
+
+### Relación con las necesidades del negocio
+
+`TB_MOV_FINANCIEROS` proporciona los datos necesarios para:
+
+- Detectar transacciones con comportamiento atípico respecto al histórico del cliente.
+- Analizar montos, frecuencia, canal y horario de las operaciones.
+- Generar reportes regulatorios sobre cantidad y volumen de transacciones.
+- Analizar volúmenes por canal y ciudad.
+- Consolidar el nivel de uso de productos por cliente.
+- Proporcionar información para posteriores análisis de rentabilidad y Customer Lifetime Value.
+
+La bandera `ind_sospechoso` **no se genera directamente en esta tabla**, ya que la regla de negocio establece que debe calcularse posteriormente en la capa **Silver**, utilizando el promedio y la desviación estándar de los últimos 30 días del mismo cliente.
+
+### Formatos de salida
+
+La tabla se exporta en dos formatos para simular un escenario de ingesta heterogénea:
+
+```text
+Data/TB_MOV_FINANCIEROS.csv
+Data/TB_MOV_FINANCIEROS.json
+
+## Generación de la tabla `TB_COMISIONES_LOG`
+
+La tabla **TB_COMISIONES_LOG** registra las comisiones asociadas a los productos de los clientes y permite identificar cuáles fueron efectivamente cobradas. Esta información será utilizada posteriormente para el cálculo del **Customer Lifetime Value (CLTV)**.
+
+La tabla contiene **80.000 registros** y está compuesta por los siguientes campos:
+
+- `id_comision`: identificador único de la comisión.
+- `id_cli`: identificador del cliente asociado a la comisión.
+- `cod_prod`: código del producto asociado.
+- `fec_cobro`: fecha en la que se registra el cobro de la comisión.
+- `vr_comision`: valor de la comisión, expresado en USD.
+- `tip_comision`: tipo de comisión.
+- `estado_cobro`: estado del cobro de la comisión.
+
+### Relación con las tablas existentes
+
+La generación de `TB_COMISIONES_LOG` utiliza información de las tablas previamente construidas para mantener la consistencia del modelo.
+
+El campo `id_cli` se obtiene exclusivamente de `TB_CLIENTES_CORE`, garantizando que cada comisión esté asociada a un cliente existente.
+
+El campo `cod_prod` se obtiene de `TB_PRODUCTOS_CAT`, garantizando que las comisiones estén asociadas a productos existentes.
+
+Además, el valor de `vr_comision` se determina a partir del campo `comision_admin` definido en `TB_PRODUCTOS_CAT`.
+
+Por ejemplo, si un producto tiene:
+
+```text
+cod_prod = CR013
+comision_admin = 8
 ## Arquitectura de la solución
 
 ## Modelo de datos
