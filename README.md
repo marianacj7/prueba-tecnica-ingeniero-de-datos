@@ -500,7 +500,7 @@ La validación de integridad referencial confirmó que todos los valores de `id_
 
 Para garantizar que los datos puedan generarse nuevamente bajo las mismas condiciones, el script utiliza una semilla fija:
 
-```python
+python
 SEED = 42
 rng = np.random.default_rng(SEED)
 
