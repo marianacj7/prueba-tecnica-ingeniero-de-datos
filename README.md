@@ -525,7 +525,6 @@ La bandera `ind_sospechoso` **no se genera directamente en esta tabla**, ya que 
 
 La tabla se exporta en dos formatos para simular un escenario de ingesta heterogénea:
 
-```text
 Data/TB_MOV_FINANCIEROS.csv
 Data/TB_MOV_FINANCIEROS.json
 
@@ -555,7 +554,6 @@ Además, el valor de `vr_comision` se determina a partir del campo `comision_adm
 
 Por ejemplo, si un producto tiene:
 
-```text
 cod_prod = CR013
 comision_admin = 8
 
@@ -586,20 +584,12 @@ Las comisiones con estado `COBRADA` son las que posteriormente podrán ser consi
 ### Cobertura temporal
 
 Los registros normales cubren un periodo de 12 meses:
-
-```
 2025-08-01 → 2026-07-31
-```
 
 Adicionalmente, se incorporaron intencionalmente **20 registros con fechas anteriores al periodo definido**, con el objetivo de probar las validaciones de calidad de datos.
 
 La ejecución presentó como fecha mínima:
-
-```
-2025-06-14
-```
-
-debido a estas anomalías intencionales.
+2025-06-14 debido a estas anomalías intencionales.
 
 ### Valores nulos controlados
 
@@ -621,10 +611,8 @@ Esta validación permite comprobar la consistencia entre ambas tablas.
 
 Resultado obtenido:
 
-```
 Comisiones inconsistentes con el catálogo:
 20
-```
 
 #### 2. Fechas fuera de rango
 
@@ -632,30 +620,24 @@ Se generaron **20 registros** con fechas anteriores al periodo histórico espera
 
 Resultado obtenido:
 
-```
 Comisiones fuera del rango:
 20
-```
 
 #### 3. Duplicados de negocio
 
 Se generaron **20 registros duplicados** utilizando como criterio los principales atributos de negocio:
 
-```
 id_cli
 cod_prod
 fec_cobro
 vr_comision
 tip_comision
 estado_cobro
-```
 
 Resultado obtenido:
 
-```
 Duplicados de negocio:
 20
-```
 
 ### Validaciones realizadas
 
@@ -677,10 +659,7 @@ La validación de integridad referencial confirmó que todos los valores de `id_
 ### Consistencia de la generación
 
 El script utiliza una semilla fija:
-
-```
 SEED = 42
-```
 
 Esto permite que las ejecuciones posteriores produzcan los mismos registros y resultados bajo las mismas condiciones.
 
@@ -704,10 +683,8 @@ La tabla de comisiones se utilizará junto con `TB_OBLIGACIONES` para obtener lo
 
 La tabla se exporta en dos formatos para simular un escenario de ingesta heterogénea:
 
-```
 Data/TB_COMISIONES_LOG.csv
 Data/TB_COMISIONES_LOG.json
-```
 
 ## Configuración y reproducibilidad
 
@@ -762,7 +739,7 @@ El archivo `TB_MOV_FINANCIEROS.json` fue generado correctamente durante el proce
 
 El dataset puede ser regenerado ejecutando:
 
-```bash
+bash
 python Scripts/generar_movimientos.py
 
 Por lo tanto, el archivo no se pierde como parte del proceso reproducible: su generación está documentada y automatizada mediante el script correspondiente.
@@ -780,7 +757,6 @@ La rama principal utilizada para la entrega es:
 
 Los datos sintéticos fueron cargados exitosamente en Azure SQL Database mediante el script:
 
-```text
 Scripts/cargar_datos_sql.py
 La carga fue validada directamente en Azure SQL Database mediante una consulta SELECT COUNT(*) sobre cada tabla, confirmando el volumen de registros cargados.
 
