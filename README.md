@@ -284,6 +284,7 @@ La tabla se exporta en dos formatos para cumplir con el requisito de ingesta het
 ```text
 Data/TB_OBLIGACIONES.csv
 Data/TB_OBLIGACIONES.json
+```
 
 ## Generación de la tabla `TB_SUCURSALES_RED`
 
